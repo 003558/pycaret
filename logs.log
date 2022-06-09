@@ -15271,3 +15271,2470 @@ timestamp
     max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
     verbose=0)]],
          verbose=False), ml_usecase=MLUsecase.ANOMALY)
+2022-06-01 09:24:15,608:INFO:Initializing load_model()
+2022-06-01 09:24:15,608:INFO:load_model(model_name=model_iforest, platform=None, authentication=None, verbose=True)
+2022-06-01 09:24:15,713:INFO:Initializing predict_model()
+2022-06-01 09:24:15,713:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]]), ml_usecase=MLUsecase.ANOMALY)
+2022-06-01 09:24:57,200:INFO:Initializing load_model()
+2022-06-01 09:24:57,200:INFO:load_model(model_name=model_iforest, platform=None, authentication=None, verbose=True)
+2022-06-01 09:24:57,301:INFO:Initializing predict_model()
+2022-06-01 09:24:57,301:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]]), ml_usecase=MLUsecase.ANOMALY)
+2022-06-01 09:26:48,289:INFO:Initializing load_model()
+2022-06-01 09:26:48,289:INFO:load_model(model_name=model_iforest, platform=None, authentication=None, verbose=True)
+2022-06-01 09:26:48,396:INFO:Initializing predict_model()
+2022-06-01 09:26:48,396:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]]), ml_usecase=MLUsecase.ANOMALY)
+2022-06-01 09:27:31,570:INFO:Initializing load_model()
+2022-06-01 09:27:31,570:INFO:load_model(model_name=model_iforest, platform=None, authentication=None, verbose=True)
+2022-06-01 09:27:31,672:INFO:Initializing predict_model()
+2022-06-01 09:27:31,672:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]]), ml_usecase=MLUsecase.ANOMALY)
+2022-06-01 10:14:14,269:INFO:Initializing load_model()
+2022-06-01 10:14:14,269:INFO:load_model(model_name=model_iforest, platform=None, authentication=None, verbose=True)
+2022-06-01 10:14:14,389:INFO:Initializing predict_model()
+2022-06-01 10:14:14,390:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]]), ml_usecase=MLUsecase.ANOMALY)
+2022-06-01 10:21:43,276:INFO:Initializing load_model()
+2022-06-01 10:21:43,276:INFO:load_model(model_name=model_iforest, platform=None, authentication=None, verbose=True)
+2022-06-01 10:21:43,393:INFO:Initializing predict_model()
+2022-06-01 10:21:43,393:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]]), ml_usecase=MLUsecase.ANOMALY)
+2022-06-01 10:25:18,842:INFO:Initializing load_model()
+2022-06-01 10:25:18,842:INFO:load_model(model_name=model_iforest, platform=None, authentication=None, verbose=True)
+2022-06-01 10:25:18,946:INFO:Initializing predict_model()
+2022-06-01 10:25:18,946:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]]), ml_usecase=MLUsecase.ANOMALY)
+2022-06-01 10:35:59,373:INFO:Initializing load_model()
+2022-06-01 10:35:59,373:INFO:load_model(model_name=model_iforest, platform=None, authentication=None, verbose=True)
+2022-06-01 10:35:59,481:INFO:Initializing predict_model()
+2022-06-01 10:35:59,482:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]]), ml_usecase=MLUsecase.ANOMALY)
+2022-06-01 10:36:35,053:INFO:Initializing load_model()
+2022-06-01 10:36:35,053:INFO:load_model(model_name=model_iforest, platform=None, authentication=None, verbose=True)
+2022-06-01 10:36:35,154:INFO:Initializing predict_model()
+2022-06-01 10:36:35,154:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]]), ml_usecase=MLUsecase.ANOMALY)
+2022-06-01 10:37:41,031:INFO:Initializing load_model()
+2022-06-01 10:37:41,031:INFO:load_model(model_name=model_iforest, platform=None, authentication=None, verbose=True)
+2022-06-01 10:37:41,147:INFO:Initializing predict_model()
+2022-06-01 10:37:41,147:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]]), ml_usecase=MLUsecase.ANOMALY)
+2022-06-01 10:39:27,057:INFO:Initializing load_model()
+2022-06-01 10:39:27,057:INFO:load_model(model_name=model_iforest, platform=None, authentication=None, verbose=True)
+2022-06-01 10:39:27,170:INFO:Initializing predict_model()
+2022-06-01 10:39:27,170:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]]), ml_usecase=MLUsecase.ANOMALY)
+2022-06-01 10:42:17,407:INFO:Initializing load_model()
+2022-06-01 10:42:17,407:INFO:load_model(model_name=model_iforest, platform=None, authentication=None, verbose=True)
+2022-06-01 10:42:17,520:INFO:Initializing predict_model()
+2022-06-01 10:42:17,520:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]]), ml_usecase=MLUsecase.ANOMALY)
+2022-06-01 10:42:59,043:INFO:Initializing load_model()
+2022-06-01 10:42:59,043:INFO:load_model(model_name=model_iforest, platform=None, authentication=None, verbose=True)
+2022-06-01 10:42:59,147:INFO:Initializing predict_model()
+2022-06-01 10:42:59,147:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]]), ml_usecase=MLUsecase.ANOMALY)
+2022-06-01 10:43:58,874:INFO:Initializing load_model()
+2022-06-01 10:43:58,874:INFO:load_model(model_name=model_iforest, platform=None, authentication=None, verbose=True)
+2022-06-01 10:43:58,985:INFO:Initializing predict_model()
+2022-06-01 10:43:58,985:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]]), ml_usecase=MLUsecase.ANOMALY)
+2022-06-01 10:46:06,770:INFO:Initializing load_model()
+2022-06-01 10:46:06,770:INFO:load_model(model_name=model_iforest, platform=None, authentication=None, verbose=True)
+2022-06-01 10:46:06,883:INFO:Initializing predict_model()
+2022-06-01 10:46:06,883:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]]), ml_usecase=MLUsecase.ANOMALY)
+2022-06-01 10:47:43,423:INFO:Initializing load_model()
+2022-06-01 10:47:43,423:INFO:load_model(model_name=model_iforest, platform=None, authentication=None, verbose=True)
+2022-06-01 10:47:43,540:INFO:Initializing predict_model()
+2022-06-01 10:47:43,540:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]]), ml_usecase=MLUsecase.ANOMALY)
+2022-06-01 10:50:47,055:INFO:Initializing load_model()
+2022-06-01 10:50:47,055:INFO:load_model(model_name=model_iforest, platform=None, authentication=None, verbose=True)
+2022-06-01 10:50:47,159:INFO:Initializing predict_model()
+2022-06-01 10:50:47,159:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]]), ml_usecase=MLUsecase.ANOMALY)
+2022-06-01 10:52:12,449:INFO:Initializing load_model()
+2022-06-01 10:52:12,449:INFO:load_model(model_name=model_iforest, platform=None, authentication=None, verbose=True)
+2022-06-01 10:52:12,569:INFO:Initializing predict_model()
+2022-06-01 10:52:12,569:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]]), ml_usecase=MLUsecase.ANOMALY)
+2022-06-01 10:58:52,738:INFO:Initializing load_model()
+2022-06-01 10:58:52,738:INFO:load_model(model_name=model_iforest, platform=None, authentication=None, verbose=True)
+2022-06-01 10:58:52,856:INFO:Initializing predict_model()
+2022-06-01 10:58:52,856:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]]), ml_usecase=MLUsecase.ANOMALY)
+2022-06-01 11:00:36,349:INFO:Initializing load_model()
+2022-06-01 11:00:36,349:INFO:load_model(model_name=model_iforest, platform=None, authentication=None, verbose=True)
+2022-06-01 11:00:36,442:INFO:Initializing predict_model()
+2022-06-01 11:00:36,442:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]]), ml_usecase=MLUsecase.ANOMALY)
+2022-06-01 11:09:48,391:INFO:Initializing load_model()
+2022-06-01 11:09:48,391:INFO:load_model(model_name=model_iforest, platform=None, authentication=None, verbose=True)
+2022-06-01 11:09:48,497:INFO:Initializing predict_model()
+2022-06-01 11:09:48,497:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]]), ml_usecase=MLUsecase.ANOMALY)
+2022-06-01 11:17:32,742:INFO:Initializing load_model()
+2022-06-01 11:17:32,742:INFO:load_model(model_name=model_iforest, platform=None, authentication=None, verbose=True)
+2022-06-01 11:17:32,842:INFO:Initializing predict_model()
+2022-06-01 11:17:32,842:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]]), ml_usecase=MLUsecase.ANOMALY)
+2022-06-01 11:20:21,918:INFO:Initializing load_model()
+2022-06-01 11:20:21,918:INFO:load_model(model_name=model_iforest, platform=None, authentication=None, verbose=True)
+2022-06-01 11:20:22,016:INFO:Initializing predict_model()
+2022-06-01 11:20:22,016:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]]), ml_usecase=MLUsecase.ANOMALY)
+2022-06-01 11:23:51,938:INFO:Initializing load_model()
+2022-06-01 11:23:51,938:INFO:load_model(model_name=model_iforest, platform=None, authentication=None, verbose=True)
+2022-06-01 11:23:52,048:INFO:Initializing predict_model()
+2022-06-01 11:23:52,048:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]]), ml_usecase=MLUsecase.ANOMALY)
+2022-06-01 11:39:55,955:INFO:Initializing load_model()
+2022-06-01 11:39:55,955:INFO:load_model(model_name=model_iforest, platform=None, authentication=None, verbose=True)
+2022-06-01 11:39:56,072:INFO:Initializing predict_model()
+2022-06-01 11:39:56,072:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]]), ml_usecase=MLUsecase.ANOMALY)
+2022-06-01 11:45:06,897:INFO:Initializing load_model()
+2022-06-01 11:45:06,897:INFO:load_model(model_name=model_iforest, platform=None, authentication=None, verbose=True)
+2022-06-01 11:45:06,992:INFO:Initializing predict_model()
+2022-06-01 11:45:06,992:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]]), ml_usecase=MLUsecase.ANOMALY)
+2022-06-01 11:52:43,201:INFO:Initializing load_model()
+2022-06-01 11:52:43,201:INFO:load_model(model_name=model_iforest, platform=None, authentication=None, verbose=True)
+2022-06-01 11:52:43,305:INFO:Initializing predict_model()
+2022-06-01 11:52:43,305:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]]), ml_usecase=MLUsecase.ANOMALY)
+2022-06-01 12:00:36,622:INFO:Initializing load_model()
+2022-06-01 12:00:36,622:INFO:load_model(model_name=model_iforest, platform=None, authentication=None, verbose=True)
+2022-06-01 12:00:36,738:INFO:Initializing predict_model()
+2022-06-01 12:00:36,738:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]]), ml_usecase=MLUsecase.ANOMALY)
+2022-06-01 12:03:13,239:INFO:Initializing load_model()
+2022-06-01 12:03:13,239:INFO:load_model(model_name=model_iforest, platform=None, authentication=None, verbose=True)
+2022-06-01 12:03:13,348:INFO:Initializing predict_model()
+2022-06-01 12:03:13,348:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]]), ml_usecase=MLUsecase.ANOMALY)
+2022-06-01 12:38:51,026:INFO:Initializing load_model()
+2022-06-01 12:38:51,026:INFO:load_model(model_name=model_iforest, platform=None, authentication=None, verbose=True)
+2022-06-01 12:38:51,137:INFO:Initializing predict_model()
+2022-06-01 12:38:51,138:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]]), ml_usecase=MLUsecase.ANOMALY)
+2022-06-01 12:39:55,076:INFO:Initializing load_model()
+2022-06-01 12:39:55,076:INFO:load_model(model_name=model_iforest, platform=None, authentication=None, verbose=True)
+2022-06-01 12:39:55,190:INFO:Initializing predict_model()
+2022-06-01 12:39:55,190:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]]), ml_usecase=MLUsecase.ANOMALY)
+2022-06-01 12:43:48,173:INFO:Initializing load_model()
+2022-06-01 12:43:48,173:INFO:load_model(model_name=model_iforest, platform=None, authentication=None, verbose=True)
+2022-06-01 12:43:48,290:INFO:Initializing predict_model()
+2022-06-01 12:43:48,290:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]]), ml_usecase=MLUsecase.ANOMALY)
+2022-06-01 12:44:18,140:INFO:Initializing load_model()
+2022-06-01 12:44:18,140:INFO:load_model(model_name=model_iforest, platform=None, authentication=None, verbose=True)
+2022-06-01 12:44:18,247:INFO:Initializing predict_model()
+2022-06-01 12:44:18,248:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]]), ml_usecase=MLUsecase.ANOMALY)
+2022-06-01 12:46:06,147:INFO:Initializing load_model()
+2022-06-01 12:46:06,147:INFO:load_model(model_name=model_iforest, platform=None, authentication=None, verbose=True)
+2022-06-01 12:46:06,259:INFO:Initializing predict_model()
+2022-06-01 12:46:06,259:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]]), ml_usecase=MLUsecase.ANOMALY)
+2022-06-01 12:54:14,036:INFO:Initializing load_model()
+2022-06-01 12:54:14,036:INFO:load_model(model_name=model_iforest, platform=None, authentication=None, verbose=True)
+2022-06-01 12:54:14,152:INFO:Initializing predict_model()
+2022-06-01 12:54:14,152:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]]), ml_usecase=MLUsecase.ANOMALY)
+2022-06-01 13:20:18,051:INFO:Initializing load_model()
+2022-06-01 13:20:18,051:INFO:load_model(model_name=model_iforest, platform=None, authentication=None, verbose=True)
+2022-06-01 13:20:18,169:INFO:Initializing predict_model()
+2022-06-01 13:20:18,169:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]]), ml_usecase=MLUsecase.ANOMALY)
+2022-06-01 13:20:41,670:INFO:Initializing load_model()
+2022-06-01 13:20:41,670:INFO:load_model(model_name=model_iforest, platform=None, authentication=None, verbose=True)
+2022-06-01 13:20:41,785:INFO:Initializing predict_model()
+2022-06-01 13:20:41,785:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]]), ml_usecase=MLUsecase.ANOMALY)
+2022-06-01 13:23:28,518:INFO:Initializing load_model()
+2022-06-01 13:23:28,519:INFO:load_model(model_name=model_iforest, platform=None, authentication=None, verbose=True)
+2022-06-01 13:23:28,621:INFO:Initializing predict_model()
+2022-06-01 13:23:28,622:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]]), ml_usecase=MLUsecase.ANOMALY)
+2022-06-01 13:26:08,007:INFO:Initializing load_model()
+2022-06-01 13:26:08,007:INFO:load_model(model_name=model_iforest, platform=None, authentication=None, verbose=True)
+2022-06-01 13:26:08,117:INFO:Initializing predict_model()
+2022-06-01 13:26:08,117:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]]), ml_usecase=MLUsecase.ANOMALY)
+2022-06-01 13:33:19,734:INFO:Initializing load_model()
+2022-06-01 13:33:19,734:INFO:load_model(model_name=model_iforest, platform=None, authentication=None, verbose=True)
+2022-06-01 13:33:19,850:INFO:Initializing predict_model()
+2022-06-01 13:33:19,850:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]]), ml_usecase=MLUsecase.ANOMALY)
+2022-06-01 13:33:41,537:INFO:Initializing load_model()
+2022-06-01 13:33:41,537:INFO:load_model(model_name=model_iforest, platform=None, authentication=None, verbose=True)
+2022-06-01 13:33:41,651:INFO:Initializing predict_model()
+2022-06-01 13:33:41,651:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]]), ml_usecase=MLUsecase.ANOMALY)
+2022-06-01 13:35:34,101:INFO:Initializing load_model()
+2022-06-01 13:35:34,101:INFO:load_model(model_name=model_iforest, platform=None, authentication=None, verbose=True)
+2022-06-01 13:35:34,218:INFO:Initializing predict_model()
+2022-06-01 13:35:34,219:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]]), ml_usecase=MLUsecase.ANOMALY)
+2022-06-01 13:36:32,514:INFO:Initializing load_model()
+2022-06-01 13:36:32,514:INFO:load_model(model_name=model_iforest, platform=None, authentication=None, verbose=True)
+2022-06-01 13:36:32,619:INFO:Initializing predict_model()
+2022-06-01 13:36:32,620:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]]), ml_usecase=MLUsecase.ANOMALY)
+2022-06-01 13:37:08,793:INFO:Initializing load_model()
+2022-06-01 13:37:08,793:INFO:load_model(model_name=model_iforest, platform=None, authentication=None, verbose=True)
+2022-06-01 13:37:08,907:INFO:Initializing predict_model()
+2022-06-01 13:37:08,907:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]]), ml_usecase=MLUsecase.ANOMALY)
+2022-06-01 14:04:14,275:INFO:PyCaret Supervised Module
+2022-06-01 14:04:14,276:INFO:ML Usecase: anomaly
+2022-06-01 14:04:14,276:INFO:version 2.3.10
+2022-06-01 14:04:14,276:INFO:Initializing setup()
+2022-06-01 14:04:14,277:INFO:setup(target=None, ml_usecase=anomaly, available_plots={'tsne': 'Anomaly TSnE (3d)', 'umap': 'UMAP Dimensionality'}, train_size=0.7, test_data=None, preprocess=True, imputation_type=simple, iterative_imputation_iters=5, categorical_features=None, categorical_imputation=mode, categorical_iterative_imputer=lightgbm, ordinal_features=None, high_cardinality_features=None, high_cardinality_method=frequency, numeric_features=None, numeric_imputation=mean, numeric_iterative_imputer=lightgbm, date_features=None, ignore_features=None, normalize=True, normalize_method=zscore, transformation=False, transformation_method=yeo-johnson, handle_unknown_categorical=True, unknown_categorical_method=least_frequent, pca=False, pca_method=linear, pca_components=None, ignore_low_variance=False, combine_rare_levels=False, rare_level_threshold=0.1, bin_numeric_features=None, remove_outliers=False, outliers_threshold=0.05, remove_multicollinearity=False, multicollinearity_threshold=0.9, remove_perfect_collinearity=False, create_clusters=False, cluster_iter=20, polynomial_features=False, polynomial_degree=2, trigonometry_features=False, polynomial_threshold=0.1, group_features=None, group_names=None, feature_selection=False, feature_selection_threshold=0.8, feature_selection_method=classic, feature_interaction=False, feature_ratio=False, interaction_threshold=0.01, fix_imbalance=False, fix_imbalance_method=None, transform_target=False, transform_target_method=box-cox, data_split_shuffle=False, data_split_stratify=False, fold_strategy=kfold, fold=10, fold_shuffle=False, fold_groups=None, n_jobs=-1, use_gpu=False, custom_pipeline=None, html=True, session_id=123, log_experiment=False, experiment_name=None, experiment_custom_tags=None, log_plots=False, log_profile=False, log_data=False, silent=False, verbose=True, profile=False, profile_kwargs=None, display=None)
+2022-06-01 14:04:14,277:INFO:Checking environment
+2022-06-01 14:04:14,277:INFO:python_version: 3.7.0
+2022-06-01 14:04:14,277:INFO:python_build: ('default', 'Nov 12 2018 20:47:31')
+2022-06-01 14:04:14,277:INFO:machine: AMD64
+2022-06-01 14:04:14,277:INFO:platform: Windows-10-10.0.19041-SP0
+2022-06-01 14:04:14,277:INFO:Memory: svmem(total=34053791744, available=17023799296, percent=50.0, used=17029992448, free=17023799296)
+2022-06-01 14:04:14,277:INFO:Physical Core: 8
+2022-06-01 14:04:14,278:INFO:Logical Core: 16
+2022-06-01 14:04:14,278:INFO:Checking libraries
+2022-06-01 14:04:14,278:INFO:pd==1.3.5
+2022-06-01 14:04:14,278:INFO:numpy==1.19.0
+2022-06-01 14:04:14,278:INFO:sklearn==0.23.2
+2022-06-01 14:04:14,278:INFO:lightgbm==3.3.2
+2022-06-01 14:04:14,279:WARNING:catboost not found
+2022-06-01 14:04:14,280:WARNING:xgboost not found
+2022-06-01 14:04:14,280:INFO:mlflow==1.26.0
+2022-06-01 14:04:14,280:INFO:Checking Exceptions
+2022-06-01 14:04:14,281:INFO:Declaring global variables
+2022-06-01 14:04:14,281:INFO:USI: 3218
+2022-06-01 14:04:14,281:INFO:pycaret_globals: {'experiment__', '_all_metrics', 'gpu_param', 'transform_target_method_param', 'log_plots_param', 'exp_name_log', 'stratify_param', 'X', 'pycaret_globals', '_internal_pipeline', 'imputation_regressor', 'fold_groups_param_full', 'dashboard_logger', '_all_models', 'transform_target_param', 'fix_imbalance_method_param', 'master_model_container', 'USI', 'fold_generator', 'seed', 'create_model_container', 'fold_param', 'fix_imbalance_param', 'iterative_imputation_iters_param', 'imputation_classifier', 'prep_pipe', 'n_jobs_param', '_all_models_internal', '_available_plots', 'target_param', 'logging_param', 'fold_groups_param', 'fold_shuffle_param', '_ml_usecase', '_gpu_n_jobs_param', 'display_container', 'data_before_preprocess', 'html_param'}
+2022-06-01 14:04:14,281:INFO:Preparing display monitor
+2022-06-01 14:04:14,281:INFO:Preparing display monitor
+2022-06-01 14:04:14,294:INFO:Importing libraries
+2022-06-01 14:04:14,294:INFO:Copying data for preprocessing
+2022-06-01 14:04:14,302:INFO:Declaring preprocessing parameters
+2022-06-01 14:04:14,307:INFO:Creating preprocessing pipeline
+2022-06-01 14:04:14,320:INFO:Preprocessing pipeline created successfully
+2022-06-01 14:04:14,320:ERROR:(Process Exit): setup has been interupted with user command 'quit'. setup must rerun.
+2022-06-01 14:04:14,320:INFO:Creating global containers
+2022-06-01 14:04:14,323:INFO:Internal pipeline: Pipeline(memory=None, steps=[('empty_step', 'passthrough')], verbose=False)
+2022-06-01 14:04:16,593:INFO:Creating grid variables
+2022-06-01 14:04:16,597:INFO:create_model_container: 0
+2022-06-01 14:04:16,598:INFO:master_model_container: 0
+2022-06-01 14:04:16,598:INFO:display_container: 1
+2022-06-01 14:04:16,608:INFO:Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True, features_todrop=[],
+                                      id_columns=[], ml_usecase='regression',
+                                      numerical_features=[],
+                                      target='UNSUPERVISED_DUMMY_TARGET',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough')],
+         verbose=False)
+2022-06-01 14:04:16,608:INFO:setup() succesfully completed......................................
+2022-06-01 14:04:19,777:INFO:Initializing create_model()
+2022-06-01 14:04:19,777:INFO:create_model(estimator=iforest, num_clusters=4, fraction=0.1, ground_truth=None, round=4, fit_kwargs=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, experiment_custom_tags=None, display=None, kwargs={})
+2022-06-01 14:04:19,777:INFO:Checking exceptions
+2022-06-01 14:04:19,777:INFO:Preparing display monitor
+2022-06-01 14:04:19,798:INFO:Importing libraries
+2022-06-01 14:04:19,812:INFO:Importing untrained model
+2022-06-01 14:04:19,829:INFO:Isolation Forest Imported succesfully
+2022-06-01 14:04:19,846:INFO:Fitting Model
+2022-06-01 14:04:25,339:INFO:IForest(behaviour='new', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=-1, random_state=123,
+    verbose=0)
+2022-06-01 14:04:25,339:INFO:create_models() succesfully completed......................................
+2022-06-01 14:04:25,339:INFO:Uploading results into container
+2022-06-01 14:04:25,339:INFO:Uploading model into container now
+2022-06-01 14:04:25,339:INFO:create_model_container: 1
+2022-06-01 14:04:25,339:INFO:master_model_container: 1
+2022-06-01 14:04:25,339:INFO:display_container: 2
+2022-06-01 14:04:25,339:INFO:IForest(behaviour='new', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=-1, random_state=123,
+    verbose=0)
+2022-06-01 14:04:25,344:INFO:create_model() succesfully completed......................................
+2022-06-01 14:31:21,689:INFO:PyCaret Supervised Module
+2022-06-01 14:31:21,689:INFO:ML Usecase: anomaly
+2022-06-01 14:31:21,689:INFO:version 2.3.10
+2022-06-01 14:31:21,689:INFO:Initializing setup()
+2022-06-01 14:31:21,689:INFO:setup(target=None, ml_usecase=anomaly, available_plots={'tsne': 'Anomaly TSnE (3d)', 'umap': 'UMAP Dimensionality'}, train_size=0.7, test_data=None, preprocess=True, imputation_type=simple, iterative_imputation_iters=5, categorical_features=None, categorical_imputation=mode, categorical_iterative_imputer=lightgbm, ordinal_features=None, high_cardinality_features=None, high_cardinality_method=frequency, numeric_features=None, numeric_imputation=mean, numeric_iterative_imputer=lightgbm, date_features=None, ignore_features=None, normalize=True, normalize_method=zscore, transformation=False, transformation_method=yeo-johnson, handle_unknown_categorical=True, unknown_categorical_method=least_frequent, pca=False, pca_method=linear, pca_components=None, ignore_low_variance=False, combine_rare_levels=False, rare_level_threshold=0.1, bin_numeric_features=None, remove_outliers=False, outliers_threshold=0.05, remove_multicollinearity=False, multicollinearity_threshold=0.9, remove_perfect_collinearity=False, create_clusters=False, cluster_iter=20, polynomial_features=False, polynomial_degree=2, trigonometry_features=False, polynomial_threshold=0.1, group_features=None, group_names=None, feature_selection=False, feature_selection_threshold=0.8, feature_selection_method=classic, feature_interaction=False, feature_ratio=False, interaction_threshold=0.01, fix_imbalance=False, fix_imbalance_method=None, transform_target=False, transform_target_method=box-cox, data_split_shuffle=False, data_split_stratify=False, fold_strategy=kfold, fold=10, fold_shuffle=False, fold_groups=None, n_jobs=-1, use_gpu=False, custom_pipeline=None, html=True, session_id=123, log_experiment=False, experiment_name=None, experiment_custom_tags=None, log_plots=False, log_profile=False, log_data=False, silent=False, verbose=True, profile=False, profile_kwargs=None, display=None)
+2022-06-01 14:31:21,689:INFO:Checking environment
+2022-06-01 14:31:21,690:INFO:python_version: 3.7.0
+2022-06-01 14:31:21,690:INFO:python_build: ('default', 'Nov 12 2018 20:47:31')
+2022-06-01 14:31:21,690:INFO:machine: AMD64
+2022-06-01 14:31:21,690:INFO:platform: Windows-10-10.0.19041-SP0
+2022-06-01 14:31:21,690:INFO:Memory: svmem(total=34053791744, available=17341755392, percent=49.1, used=16712036352, free=17341755392)
+2022-06-01 14:31:21,690:INFO:Physical Core: 8
+2022-06-01 14:31:21,690:INFO:Logical Core: 16
+2022-06-01 14:31:21,690:INFO:Checking libraries
+2022-06-01 14:31:21,690:INFO:pd==1.3.5
+2022-06-01 14:31:21,690:INFO:numpy==1.19.0
+2022-06-01 14:31:21,690:INFO:sklearn==0.23.2
+2022-06-01 14:31:21,691:INFO:lightgbm==3.3.2
+2022-06-01 14:31:21,691:WARNING:catboost not found
+2022-06-01 14:31:21,693:WARNING:xgboost not found
+2022-06-01 14:31:21,693:INFO:mlflow==1.26.0
+2022-06-01 14:31:21,693:INFO:Checking Exceptions
+2022-06-01 14:31:21,693:INFO:Declaring global variables
+2022-06-01 14:31:21,694:INFO:USI: 5d6c
+2022-06-01 14:31:21,694:INFO:pycaret_globals: {'fold_shuffle_param', 'fix_imbalance_method_param', 'logging_param', 'data_before_preprocess', 'transform_target_method_param', 'html_param', '_gpu_n_jobs_param', 'create_model_container', 'dashboard_logger', 'X', 'log_plots_param', 'imputation_regressor', '_all_models_internal', '_all_metrics', 'gpu_param', 'USI', 'iterative_imputation_iters_param', 'fold_groups_param', 'master_model_container', 'imputation_classifier', 'fix_imbalance_param', 'n_jobs_param', '_internal_pipeline', 'stratify_param', 'prep_pipe', 'transform_target_param', 'fold_generator', '_all_models', 'fold_groups_param_full', '_available_plots', 'fold_param', 'target_param', 'seed', 'experiment__', '_ml_usecase', 'pycaret_globals', 'display_container', 'exp_name_log'}
+2022-06-01 14:31:21,694:INFO:Preparing display monitor
+2022-06-01 14:31:21,694:INFO:Preparing display monitor
+2022-06-01 14:31:21,712:INFO:Importing libraries
+2022-06-01 14:31:21,712:INFO:Copying data for preprocessing
+2022-06-01 14:31:21,721:INFO:Declaring preprocessing parameters
+2022-06-01 14:31:21,727:INFO:Creating preprocessing pipeline
+2022-06-01 14:31:21,739:INFO:Preprocessing pipeline created successfully
+2022-06-01 14:31:21,739:ERROR:(Process Exit): setup has been interupted with user command 'quit'. setup must rerun.
+2022-06-01 14:31:21,740:INFO:Creating global containers
+2022-06-01 14:31:21,742:INFO:Internal pipeline: Pipeline(memory=None, steps=[('empty_step', 'passthrough')], verbose=False)
+2022-06-01 14:31:26,083:INFO:Creating grid variables
+2022-06-01 14:31:26,088:INFO:create_model_container: 0
+2022-06-01 14:31:26,088:INFO:master_model_container: 0
+2022-06-01 14:31:26,088:INFO:display_container: 1
+2022-06-01 14:31:26,100:INFO:Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True, features_todrop=[],
+                                      id_columns=[], ml_usecase='regression',
+                                      numerical_features=[],
+                                      target='UNSUPERVISED_DUMMY_TARGET',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough')],
+         verbose=False)
+2022-06-01 14:31:26,100:INFO:setup() succesfully completed......................................
+2022-06-01 14:31:29,260:INFO:Initializing create_model()
+2022-06-01 14:31:29,260:INFO:create_model(estimator=iforest, num_clusters=4, fraction=0.1, ground_truth=None, round=4, fit_kwargs=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, experiment_custom_tags=None, display=None, kwargs={})
+2022-06-01 14:31:29,260:INFO:Checking exceptions
+2022-06-01 14:31:29,260:INFO:Preparing display monitor
+2022-06-01 14:31:29,281:INFO:Importing libraries
+2022-06-01 14:31:29,296:INFO:Importing untrained model
+2022-06-01 14:31:29,315:INFO:Isolation Forest Imported succesfully
+2022-06-01 14:31:29,333:INFO:Fitting Model
+2022-06-01 14:31:34,845:INFO:IForest(behaviour='new', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=-1, random_state=123,
+    verbose=0)
+2022-06-01 14:31:34,845:INFO:create_models() succesfully completed......................................
+2022-06-01 14:31:34,845:INFO:Uploading results into container
+2022-06-01 14:31:34,845:INFO:Uploading model into container now
+2022-06-01 14:31:34,845:INFO:create_model_container: 1
+2022-06-01 14:31:34,845:INFO:master_model_container: 1
+2022-06-01 14:31:34,845:INFO:display_container: 2
+2022-06-01 14:31:34,852:INFO:IForest(behaviour='new', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=-1, random_state=123,
+    verbose=0)
+2022-06-01 14:31:34,852:INFO:create_model() succesfully completed......................................
+2022-06-01 14:31:34,914:INFO:Initializing save_model()
+2022-06-01 14:31:34,915:INFO:save_model(model=IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0), model_name=model_iforest, prep_pipe_=Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True, features_todrop=[],
+                                      id_columns=[], ml_usecase='regression',
+                                      numerical_features=[],
+                                      target='UNSUPERVISED_DUMMY_TARGET',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough')],
+         verbose=False), verbose=True, kwargs={})
+2022-06-01 14:31:34,915:INFO:Adding model into prep_pipe
+2022-06-01 14:31:35,005:INFO:model_iforest.pkl saved in current working directory
+2022-06-01 14:31:35,017:INFO:Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True, features_todrop=[],
+                                      id_columns=[], ml_usecase='regression',
+                                      numerical_features=[],
+                                      target='UNSUPERVISED_DUMMY_TARGET',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None...
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]],
+         verbose=False)
+2022-06-01 14:31:35,017:INFO:save_model() successfully completed......................................
+2022-06-01 14:31:35,071:INFO:Initializing assign_model()
+2022-06-01 14:31:35,071:INFO:assign_model(model=IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0), transformation=False, score=True, verbose=True)
+2022-06-01 14:31:35,071:INFO:Checking exceptions
+2022-06-01 14:31:35,071:INFO:Determining Trained Model
+2022-06-01 14:31:35,072:INFO:Trained Model : Isolation Forest
+2022-06-01 14:31:35,072:INFO:Copying data
+2022-06-01 14:31:35,073:INFO:(5, 13)
+2022-06-01 14:31:35,073:INFO:assign_model() succesfully completed......................................
+2022-06-01 14:54:43,960:INFO:Initializing load_model()
+2022-06-01 14:54:43,960:INFO:load_model(model_name=model_iforest, platform=None, authentication=None, verbose=True)
+2022-06-01 14:54:44,082:INFO:Initializing predict_model()
+2022-06-01 14:54:44,082:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]]), ml_usecase=MLUsecase.ANOMALY)
+2022-06-01 15:03:25,138:INFO:Initializing load_model()
+2022-06-01 15:03:25,138:INFO:load_model(model_name=model_iforest, platform=None, authentication=None, verbose=True)
+2022-06-01 15:03:25,252:INFO:Initializing predict_model()
+2022-06-01 15:03:25,252:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]]), ml_usecase=MLUsecase.ANOMALY)
+2022-06-01 15:09:54,909:INFO:Initializing load_model()
+2022-06-01 15:09:54,909:INFO:load_model(model_name=model_iforest, platform=None, authentication=None, verbose=True)
+2022-06-01 15:09:55,017:INFO:Initializing predict_model()
+2022-06-01 15:09:55,017:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]]), ml_usecase=MLUsecase.ANOMALY)
+2022-06-01 17:00:12,325:INFO:Initializing load_model()
+2022-06-01 17:00:12,325:INFO:load_model(model_name=model_iforest, platform=None, authentication=None, verbose=True)
+2022-06-01 17:00:12,436:INFO:Initializing predict_model()
+2022-06-01 17:00:12,436:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]]), ml_usecase=MLUsecase.ANOMALY)
+2022-06-01 17:00:56,542:INFO:Initializing load_model()
+2022-06-01 17:00:56,542:INFO:load_model(model_name=model_iforest, platform=None, authentication=None, verbose=True)
+2022-06-01 17:00:56,675:INFO:Initializing predict_model()
+2022-06-01 17:00:56,676:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]]), ml_usecase=MLUsecase.ANOMALY)
+2022-06-01 17:01:13,713:INFO:Initializing load_model()
+2022-06-01 17:01:13,713:INFO:load_model(model_name=model_iforest, platform=None, authentication=None, verbose=True)
+2022-06-01 17:01:13,829:INFO:Initializing predict_model()
+2022-06-01 17:01:13,830:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]]), ml_usecase=MLUsecase.ANOMALY)
+2022-06-02 13:38:12,031:INFO:PyCaret Supervised Module
+2022-06-02 13:38:12,032:INFO:ML Usecase: anomaly
+2022-06-02 13:38:12,032:INFO:version 2.3.10
+2022-06-02 13:38:12,032:INFO:Initializing setup()
+2022-06-02 13:38:12,032:INFO:setup(target=None, ml_usecase=anomaly, available_plots={'tsne': 'Anomaly TSnE (3d)', 'umap': 'UMAP Dimensionality'}, train_size=0.7, test_data=None, preprocess=True, imputation_type=simple, iterative_imputation_iters=5, categorical_features=None, categorical_imputation=mode, categorical_iterative_imputer=lightgbm, ordinal_features=None, high_cardinality_features=None, high_cardinality_method=frequency, numeric_features=None, numeric_imputation=mean, numeric_iterative_imputer=lightgbm, date_features=None, ignore_features=None, normalize=True, normalize_method=zscore, transformation=False, transformation_method=yeo-johnson, handle_unknown_categorical=True, unknown_categorical_method=least_frequent, pca=False, pca_method=linear, pca_components=None, ignore_low_variance=False, combine_rare_levels=False, rare_level_threshold=0.1, bin_numeric_features=None, remove_outliers=False, outliers_threshold=0.05, remove_multicollinearity=False, multicollinearity_threshold=0.9, remove_perfect_collinearity=False, create_clusters=False, cluster_iter=20, polynomial_features=False, polynomial_degree=2, trigonometry_features=False, polynomial_threshold=0.1, group_features=None, group_names=None, feature_selection=False, feature_selection_threshold=0.8, feature_selection_method=classic, feature_interaction=False, feature_ratio=False, interaction_threshold=0.01, fix_imbalance=False, fix_imbalance_method=None, transform_target=False, transform_target_method=box-cox, data_split_shuffle=False, data_split_stratify=False, fold_strategy=kfold, fold=10, fold_shuffle=False, fold_groups=None, n_jobs=-1, use_gpu=False, custom_pipeline=None, html=True, session_id=123, log_experiment=False, experiment_name=None, experiment_custom_tags=None, log_plots=False, log_profile=False, log_data=False, silent=False, verbose=True, profile=False, profile_kwargs=None, display=None)
+2022-06-02 13:38:12,032:INFO:Checking environment
+2022-06-02 13:38:12,032:INFO:python_version: 3.7.0
+2022-06-02 13:38:12,032:INFO:python_build: ('default', 'Nov 12 2018 20:47:31')
+2022-06-02 13:38:12,032:INFO:machine: AMD64
+2022-06-02 13:38:12,032:INFO:platform: Windows-10-10.0.19041-SP0
+2022-06-02 13:38:12,033:INFO:Memory: svmem(total=34053791744, available=17332654080, percent=49.1, used=16721137664, free=17332654080)
+2022-06-02 13:38:12,033:INFO:Physical Core: 8
+2022-06-02 13:38:12,033:INFO:Logical Core: 16
+2022-06-02 13:38:12,033:INFO:Checking libraries
+2022-06-02 13:38:12,033:INFO:pd==1.3.5
+2022-06-02 13:38:12,033:INFO:numpy==1.19.0
+2022-06-02 13:38:12,033:INFO:sklearn==0.23.2
+2022-06-02 13:38:12,033:INFO:lightgbm==3.3.2
+2022-06-02 13:38:12,034:WARNING:catboost not found
+2022-06-02 13:38:12,035:WARNING:xgboost not found
+2022-06-02 13:38:12,035:INFO:mlflow==1.26.0
+2022-06-02 13:38:12,035:INFO:Checking Exceptions
+2022-06-02 13:38:12,035:INFO:Declaring global variables
+2022-06-02 13:38:12,035:INFO:USI: a27b
+2022-06-02 13:38:12,035:INFO:pycaret_globals: {'_gpu_n_jobs_param', 'create_model_container', 'transform_target_param', 'fix_imbalance_param', 'target_param', '_all_models_internal', '_available_plots', 'data_before_preprocess', '_internal_pipeline', 'gpu_param', 'fold_param', 'html_param', 'seed', 'fold_shuffle_param', 'prep_pipe', 'fix_imbalance_method_param', 'pycaret_globals', 'iterative_imputation_iters_param', 'logging_param', 'experiment__', 'master_model_container', 'exp_name_log', 'USI', 'fold_generator', 'dashboard_logger', '_ml_usecase', 'n_jobs_param', 'transform_target_method_param', '_all_models', 'fold_groups_param', 'fold_groups_param_full', 'display_container', 'imputation_regressor', 'stratify_param', 'log_plots_param', 'imputation_classifier', '_all_metrics', 'X'}
+2022-06-02 13:38:12,036:INFO:Preparing display monitor
+2022-06-02 13:38:12,036:INFO:Preparing display monitor
+2022-06-02 13:38:12,051:INFO:Importing libraries
+2022-06-02 13:38:12,051:INFO:Copying data for preprocessing
+2022-06-02 13:38:12,059:INFO:Declaring preprocessing parameters
+2022-06-02 13:38:12,064:INFO:Creating preprocessing pipeline
+2022-06-02 13:38:12,077:INFO:Preprocessing pipeline created successfully
+2022-06-02 13:38:12,078:ERROR:(Process Exit): setup has been interupted with user command 'quit'. setup must rerun.
+2022-06-02 13:38:12,078:INFO:Creating global containers
+2022-06-02 13:38:12,080:INFO:Internal pipeline: Pipeline(memory=None, steps=[('empty_step', 'passthrough')], verbose=False)
+2022-06-02 13:38:14,799:INFO:Creating grid variables
+2022-06-02 13:38:14,805:INFO:create_model_container: 0
+2022-06-02 13:38:14,805:INFO:master_model_container: 0
+2022-06-02 13:38:14,805:INFO:display_container: 1
+2022-06-02 13:38:14,817:INFO:Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True, features_todrop=[],
+                                      id_columns=[], ml_usecase='regression',
+                                      numerical_features=[],
+                                      target='UNSUPERVISED_DUMMY_TARGET',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough')],
+         verbose=False)
+2022-06-02 13:38:14,817:INFO:setup() succesfully completed......................................
+2022-06-02 13:38:17,979:INFO:Initializing create_model()
+2022-06-02 13:38:17,980:INFO:create_model(estimator=iforest, num_clusters=4, fraction=0.1, ground_truth=None, round=4, fit_kwargs=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, experiment_custom_tags=None, display=None, kwargs={})
+2022-06-02 13:38:17,980:INFO:Checking exceptions
+2022-06-02 13:38:17,981:INFO:Preparing display monitor
+2022-06-02 13:38:18,004:INFO:Importing libraries
+2022-06-02 13:38:18,018:INFO:Importing untrained model
+2022-06-02 13:38:18,037:INFO:Isolation Forest Imported succesfully
+2022-06-02 13:38:18,057:INFO:Fitting Model
+2022-06-02 13:38:23,733:INFO:IForest(behaviour='new', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=-1, random_state=123,
+    verbose=0)
+2022-06-02 13:38:23,733:INFO:create_models() succesfully completed......................................
+2022-06-02 13:38:23,733:INFO:Uploading results into container
+2022-06-02 13:38:23,733:INFO:Uploading model into container now
+2022-06-02 13:38:23,733:INFO:create_model_container: 1
+2022-06-02 13:38:23,733:INFO:master_model_container: 1
+2022-06-02 13:38:23,733:INFO:display_container: 2
+2022-06-02 13:38:23,740:INFO:IForest(behaviour='new', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=-1, random_state=123,
+    verbose=0)
+2022-06-02 13:38:23,740:INFO:create_model() succesfully completed......................................
+2022-06-02 13:44:47,328:INFO:PyCaret Supervised Module
+2022-06-02 13:44:47,328:INFO:ML Usecase: anomaly
+2022-06-02 13:44:47,328:INFO:version 2.3.10
+2022-06-02 13:44:47,328:INFO:Initializing setup()
+2022-06-02 13:44:47,328:INFO:setup(target=None, ml_usecase=anomaly, available_plots={'tsne': 'Anomaly TSnE (3d)', 'umap': 'UMAP Dimensionality'}, train_size=0.7, test_data=None, preprocess=True, imputation_type=simple, iterative_imputation_iters=5, categorical_features=None, categorical_imputation=mode, categorical_iterative_imputer=lightgbm, ordinal_features=None, high_cardinality_features=None, high_cardinality_method=frequency, numeric_features=None, numeric_imputation=mean, numeric_iterative_imputer=lightgbm, date_features=None, ignore_features=None, normalize=True, normalize_method=zscore, transformation=False, transformation_method=yeo-johnson, handle_unknown_categorical=True, unknown_categorical_method=least_frequent, pca=False, pca_method=linear, pca_components=None, ignore_low_variance=False, combine_rare_levels=False, rare_level_threshold=0.1, bin_numeric_features=None, remove_outliers=False, outliers_threshold=0.05, remove_multicollinearity=False, multicollinearity_threshold=0.9, remove_perfect_collinearity=False, create_clusters=False, cluster_iter=20, polynomial_features=False, polynomial_degree=2, trigonometry_features=False, polynomial_threshold=0.1, group_features=None, group_names=None, feature_selection=False, feature_selection_threshold=0.8, feature_selection_method=classic, feature_interaction=False, feature_ratio=False, interaction_threshold=0.01, fix_imbalance=False, fix_imbalance_method=None, transform_target=False, transform_target_method=box-cox, data_split_shuffle=False, data_split_stratify=False, fold_strategy=kfold, fold=10, fold_shuffle=False, fold_groups=None, n_jobs=-1, use_gpu=False, custom_pipeline=None, html=True, session_id=123, log_experiment=False, experiment_name=None, experiment_custom_tags=None, log_plots=False, log_profile=False, log_data=False, silent=False, verbose=True, profile=False, profile_kwargs=None, display=None)
+2022-06-02 13:44:47,328:INFO:Checking environment
+2022-06-02 13:44:47,328:INFO:python_version: 3.7.0
+2022-06-02 13:44:47,328:INFO:python_build: ('default', 'Nov 12 2018 20:47:31')
+2022-06-02 13:44:47,328:INFO:machine: AMD64
+2022-06-02 13:44:47,329:INFO:platform: Windows-10-10.0.19041-SP0
+2022-06-02 13:44:47,329:INFO:Memory: svmem(total=34053791744, available=17266487296, percent=49.3, used=16787304448, free=17266487296)
+2022-06-02 13:44:47,329:INFO:Physical Core: 8
+2022-06-02 13:44:47,329:INFO:Logical Core: 16
+2022-06-02 13:44:47,329:INFO:Checking libraries
+2022-06-02 13:44:47,329:INFO:pd==1.3.5
+2022-06-02 13:44:47,329:INFO:numpy==1.19.0
+2022-06-02 13:44:47,329:INFO:sklearn==0.23.2
+2022-06-02 13:44:47,329:INFO:lightgbm==3.3.2
+2022-06-02 13:44:47,331:WARNING:catboost not found
+2022-06-02 13:44:47,332:WARNING:xgboost not found
+2022-06-02 13:44:47,332:INFO:mlflow==1.26.0
+2022-06-02 13:44:47,332:INFO:Checking Exceptions
+2022-06-02 13:44:47,333:INFO:Declaring global variables
+2022-06-02 13:44:47,333:INFO:USI: 7231
+2022-06-02 13:44:47,333:INFO:pycaret_globals: {'seed', 'gpu_param', 'fold_groups_param', '_internal_pipeline', 'iterative_imputation_iters_param', 'fold_shuffle_param', 'target_param', 'transform_target_param', 'transform_target_method_param', 'imputation_regressor', 'fold_groups_param_full', '_available_plots', '_all_models_internal', 'n_jobs_param', 'fix_imbalance_method_param', '_gpu_n_jobs_param', 'pycaret_globals', 'experiment__', 'display_container', 'master_model_container', 'dashboard_logger', '_all_models', 'USI', 'fix_imbalance_param', 'fold_param', 'logging_param', 'exp_name_log', '_ml_usecase', 'X', 'log_plots_param', 'stratify_param', '_all_metrics', 'data_before_preprocess', 'html_param', 'fold_generator', 'imputation_classifier', 'prep_pipe', 'create_model_container'}
+2022-06-02 13:44:47,333:INFO:Preparing display monitor
+2022-06-02 13:44:47,333:INFO:Preparing display monitor
+2022-06-02 13:44:47,349:INFO:Importing libraries
+2022-06-02 13:44:47,349:INFO:Copying data for preprocessing
+2022-06-02 13:44:47,357:INFO:Declaring preprocessing parameters
+2022-06-02 13:44:47,361:INFO:Creating preprocessing pipeline
+2022-06-02 13:44:47,374:INFO:Preprocessing pipeline created successfully
+2022-06-02 13:44:47,374:ERROR:(Process Exit): setup has been interupted with user command 'quit'. setup must rerun.
+2022-06-02 13:44:47,375:INFO:Creating global containers
+2022-06-02 13:44:47,377:INFO:Internal pipeline: Pipeline(memory=None, steps=[('empty_step', 'passthrough')], verbose=False)
+2022-06-02 13:45:02,972:INFO:Creating grid variables
+2022-06-02 13:45:02,977:INFO:create_model_container: 0
+2022-06-02 13:45:02,977:INFO:master_model_container: 0
+2022-06-02 13:45:02,978:INFO:display_container: 1
+2022-06-02 13:45:02,989:INFO:Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True, features_todrop=[],
+                                      id_columns=[], ml_usecase='regression',
+                                      numerical_features=[],
+                                      target='UNSUPERVISED_DUMMY_TARGET',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough')],
+         verbose=False)
+2022-06-02 13:45:02,989:INFO:setup() succesfully completed......................................
+2022-06-02 13:45:06,172:INFO:Initializing create_model()
+2022-06-02 13:45:06,172:INFO:create_model(estimator=iforest, num_clusters=4, fraction=0.1, ground_truth=None, round=4, fit_kwargs=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, experiment_custom_tags=None, display=None, kwargs={})
+2022-06-02 13:45:06,172:INFO:Checking exceptions
+2022-06-02 13:45:06,172:INFO:Preparing display monitor
+2022-06-02 13:45:06,194:INFO:Importing libraries
+2022-06-02 13:45:06,208:INFO:Importing untrained model
+2022-06-02 13:45:06,226:INFO:Isolation Forest Imported succesfully
+2022-06-02 13:45:06,244:INFO:Fitting Model
+2022-06-02 13:45:11,961:INFO:IForest(behaviour='new', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=-1, random_state=123,
+    verbose=0)
+2022-06-02 13:45:11,961:INFO:create_models() succesfully completed......................................
+2022-06-02 13:45:11,964:INFO:Uploading results into container
+2022-06-02 13:45:11,964:INFO:Uploading model into container now
+2022-06-02 13:45:11,965:INFO:create_model_container: 1
+2022-06-02 13:45:11,965:INFO:master_model_container: 1
+2022-06-02 13:45:11,965:INFO:display_container: 2
+2022-06-02 13:45:11,965:INFO:IForest(behaviour='new', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=-1, random_state=123,
+    verbose=0)
+2022-06-02 13:45:11,965:INFO:create_model() succesfully completed......................................
+2022-06-02 13:45:12,311:INFO:Initializing interpret_model()
+2022-06-02 13:45:12,311:INFO:interpret_model(estimator=IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0), use_train_data=False, X_new_sample=None, y_new_sample=None, feature=None, kwargs={}, observation=None, plot=summary, save=False)
+2022-06-02 13:45:12,311:INFO:Checking exceptions
+2022-06-02 13:49:05,529:INFO:PyCaret Supervised Module
+2022-06-02 13:49:05,530:INFO:ML Usecase: anomaly
+2022-06-02 13:49:05,530:INFO:version 2.3.10
+2022-06-02 13:49:05,530:INFO:Initializing setup()
+2022-06-02 13:49:05,530:INFO:setup(target=None, ml_usecase=anomaly, available_plots={'tsne': 'Anomaly TSnE (3d)', 'umap': 'UMAP Dimensionality'}, train_size=0.7, test_data=None, preprocess=True, imputation_type=simple, iterative_imputation_iters=5, categorical_features=None, categorical_imputation=mode, categorical_iterative_imputer=lightgbm, ordinal_features=None, high_cardinality_features=None, high_cardinality_method=frequency, numeric_features=None, numeric_imputation=mean, numeric_iterative_imputer=lightgbm, date_features=None, ignore_features=None, normalize=True, normalize_method=zscore, transformation=False, transformation_method=yeo-johnson, handle_unknown_categorical=True, unknown_categorical_method=least_frequent, pca=False, pca_method=linear, pca_components=None, ignore_low_variance=False, combine_rare_levels=False, rare_level_threshold=0.1, bin_numeric_features=None, remove_outliers=False, outliers_threshold=0.05, remove_multicollinearity=False, multicollinearity_threshold=0.9, remove_perfect_collinearity=False, create_clusters=False, cluster_iter=20, polynomial_features=False, polynomial_degree=2, trigonometry_features=False, polynomial_threshold=0.1, group_features=None, group_names=None, feature_selection=False, feature_selection_threshold=0.8, feature_selection_method=classic, feature_interaction=False, feature_ratio=False, interaction_threshold=0.01, fix_imbalance=False, fix_imbalance_method=None, transform_target=False, transform_target_method=box-cox, data_split_shuffle=False, data_split_stratify=False, fold_strategy=kfold, fold=10, fold_shuffle=False, fold_groups=None, n_jobs=-1, use_gpu=False, custom_pipeline=None, html=True, session_id=123, log_experiment=False, experiment_name=None, experiment_custom_tags=None, log_plots=False, log_profile=False, log_data=False, silent=False, verbose=True, profile=False, profile_kwargs=None, display=None)
+2022-06-02 13:49:05,530:INFO:Checking environment
+2022-06-02 13:49:05,530:INFO:python_version: 3.7.0
+2022-06-02 13:49:05,530:INFO:python_build: ('default', 'Nov 12 2018 20:47:31')
+2022-06-02 13:49:05,530:INFO:machine: AMD64
+2022-06-02 13:49:05,530:INFO:platform: Windows-10-10.0.19041-SP0
+2022-06-02 13:49:05,531:INFO:Memory: svmem(total=34053791744, available=17386442752, percent=48.9, used=16667348992, free=17386442752)
+2022-06-02 13:49:05,531:INFO:Physical Core: 8
+2022-06-02 13:49:05,531:INFO:Logical Core: 16
+2022-06-02 13:49:05,531:INFO:Checking libraries
+2022-06-02 13:49:05,531:INFO:pd==1.3.5
+2022-06-02 13:49:05,531:INFO:numpy==1.19.0
+2022-06-02 13:49:05,531:INFO:sklearn==0.23.2
+2022-06-02 13:49:05,531:INFO:lightgbm==3.3.2
+2022-06-02 13:49:05,532:WARNING:catboost not found
+2022-06-02 13:49:05,533:WARNING:xgboost not found
+2022-06-02 13:49:05,533:INFO:mlflow==1.26.0
+2022-06-02 13:49:05,533:INFO:Checking Exceptions
+2022-06-02 13:49:05,533:INFO:Declaring global variables
+2022-06-02 13:49:05,533:INFO:USI: b3be
+2022-06-02 13:49:05,534:INFO:pycaret_globals: {'prep_pipe', 'USI', '_internal_pipeline', '_all_metrics', 'pycaret_globals', 'data_before_preprocess', 'stratify_param', 'transform_target_method_param', 'display_container', 'imputation_classifier', 'imputation_regressor', 'experiment__', '_all_models_internal', 'X', 'fold_shuffle_param', 'seed', 'n_jobs_param', 'exp_name_log', 'logging_param', '_all_models', 'fold_groups_param_full', '_gpu_n_jobs_param', 'create_model_container', 'fold_param', 'gpu_param', '_available_plots', 'master_model_container', 'fix_imbalance_method_param', 'fix_imbalance_param', '_ml_usecase', 'html_param', 'transform_target_param', 'target_param', 'log_plots_param', 'fold_generator', 'dashboard_logger', 'iterative_imputation_iters_param', 'fold_groups_param'}
+2022-06-02 13:49:05,534:INFO:Preparing display monitor
+2022-06-02 13:49:05,534:INFO:Preparing display monitor
+2022-06-02 13:49:05,546:INFO:Importing libraries
+2022-06-02 13:49:05,546:INFO:Copying data for preprocessing
+2022-06-02 13:49:05,556:INFO:Declaring preprocessing parameters
+2022-06-02 13:49:05,562:INFO:Creating preprocessing pipeline
+2022-06-02 13:49:05,573:INFO:Preprocessing pipeline created successfully
+2022-06-02 13:49:05,573:ERROR:(Process Exit): setup has been interupted with user command 'quit'. setup must rerun.
+2022-06-02 13:49:05,573:INFO:Creating global containers
+2022-06-02 13:49:05,576:INFO:Internal pipeline: Pipeline(memory=None, steps=[('empty_step', 'passthrough')], verbose=False)
+2022-06-02 13:49:18,978:INFO:Creating grid variables
+2022-06-02 13:49:18,991:INFO:create_model_container: 0
+2022-06-02 13:49:18,992:INFO:master_model_container: 0
+2022-06-02 13:49:18,992:INFO:display_container: 1
+2022-06-02 13:49:19,009:INFO:Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True, features_todrop=[],
+                                      id_columns=[], ml_usecase='regression',
+                                      numerical_features=[],
+                                      target='UNSUPERVISED_DUMMY_TARGET',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough')],
+         verbose=False)
+2022-06-02 13:49:19,009:INFO:setup() succesfully completed......................................
+2022-06-02 14:37:17,008:INFO:PyCaret Supervised Module
+2022-06-02 14:37:17,009:INFO:ML Usecase: anomaly
+2022-06-02 14:37:17,009:INFO:version 2.3.10
+2022-06-02 14:37:17,009:INFO:Initializing setup()
+2022-06-02 14:37:17,009:INFO:setup(target=None, ml_usecase=anomaly, available_plots={'tsne': 'Anomaly TSnE (3d)', 'umap': 'UMAP Dimensionality'}, train_size=0.7, test_data=None, preprocess=True, imputation_type=simple, iterative_imputation_iters=5, categorical_features=None, categorical_imputation=mode, categorical_iterative_imputer=lightgbm, ordinal_features=None, high_cardinality_features=None, high_cardinality_method=frequency, numeric_features=None, numeric_imputation=mean, numeric_iterative_imputer=lightgbm, date_features=None, ignore_features=None, normalize=True, normalize_method=zscore, transformation=False, transformation_method=yeo-johnson, handle_unknown_categorical=True, unknown_categorical_method=least_frequent, pca=False, pca_method=linear, pca_components=None, ignore_low_variance=False, combine_rare_levels=False, rare_level_threshold=0.1, bin_numeric_features=None, remove_outliers=False, outliers_threshold=0.05, remove_multicollinearity=False, multicollinearity_threshold=0.9, remove_perfect_collinearity=False, create_clusters=False, cluster_iter=20, polynomial_features=False, polynomial_degree=2, trigonometry_features=False, polynomial_threshold=0.1, group_features=None, group_names=None, feature_selection=False, feature_selection_threshold=0.8, feature_selection_method=classic, feature_interaction=False, feature_ratio=False, interaction_threshold=0.01, fix_imbalance=False, fix_imbalance_method=None, transform_target=False, transform_target_method=box-cox, data_split_shuffle=False, data_split_stratify=False, fold_strategy=kfold, fold=10, fold_shuffle=False, fold_groups=None, n_jobs=-1, use_gpu=False, custom_pipeline=None, html=True, session_id=123, log_experiment=False, experiment_name=None, experiment_custom_tags=None, log_plots=False, log_profile=False, log_data=False, silent=False, verbose=True, profile=False, profile_kwargs=None, display=None)
+2022-06-02 14:37:17,009:INFO:Checking environment
+2022-06-02 14:37:17,009:INFO:python_version: 3.7.0
+2022-06-02 14:37:17,009:INFO:python_build: ('default', 'Nov 12 2018 20:47:31')
+2022-06-02 14:37:17,009:INFO:machine: AMD64
+2022-06-02 14:37:17,009:INFO:platform: Windows-10-10.0.19041-SP0
+2022-06-02 14:37:17,010:INFO:Memory: svmem(total=34053791744, available=18040078336, percent=47.0, used=16013713408, free=18040078336)
+2022-06-02 14:37:17,010:INFO:Physical Core: 8
+2022-06-02 14:37:17,010:INFO:Logical Core: 16
+2022-06-02 14:37:17,010:INFO:Checking libraries
+2022-06-02 14:37:17,010:INFO:pd==1.3.5
+2022-06-02 14:37:17,010:INFO:numpy==1.19.0
+2022-06-02 14:37:17,010:INFO:sklearn==0.23.2
+2022-06-02 14:37:17,010:INFO:lightgbm==3.3.2
+2022-06-02 14:37:17,011:WARNING:catboost not found
+2022-06-02 14:37:17,012:WARNING:xgboost not found
+2022-06-02 14:37:17,012:INFO:mlflow==1.26.0
+2022-06-02 14:37:17,012:INFO:Checking Exceptions
+2022-06-02 14:37:17,013:INFO:Declaring global variables
+2022-06-02 14:37:17,013:INFO:USI: bc10
+2022-06-02 14:37:17,013:INFO:pycaret_globals: {'transform_target_method_param', 'display_container', 'prep_pipe', 'log_plots_param', 'target_param', 'fold_groups_param', '_ml_usecase', '_all_models', 'fix_imbalance_param', 'X', 'experiment__', 'fix_imbalance_method_param', 'data_before_preprocess', 'dashboard_logger', 'pycaret_globals', 'fold_param', 'USI', 'imputation_classifier', 'master_model_container', '_available_plots', '_gpu_n_jobs_param', 'fold_shuffle_param', 'seed', 'fold_generator', '_internal_pipeline', 'imputation_regressor', '_all_models_internal', 'exp_name_log', 'create_model_container', 'gpu_param', 'html_param', 'logging_param', 'fold_groups_param_full', '_all_metrics', 'transform_target_param', 'n_jobs_param', 'stratify_param', 'iterative_imputation_iters_param'}
+2022-06-02 14:37:17,013:INFO:Preparing display monitor
+2022-06-02 14:37:17,013:INFO:Preparing display monitor
+2022-06-02 14:37:17,028:INFO:Importing libraries
+2022-06-02 14:37:17,029:INFO:Copying data for preprocessing
+2022-06-02 14:37:17,037:INFO:Declaring preprocessing parameters
+2022-06-02 14:37:17,041:INFO:Creating preprocessing pipeline
+2022-06-02 14:37:17,055:INFO:Preprocessing pipeline created successfully
+2022-06-02 14:37:17,055:ERROR:(Process Exit): setup has been interupted with user command 'quit'. setup must rerun.
+2022-06-02 14:37:17,055:INFO:Creating global containers
+2022-06-02 14:37:17,058:INFO:Internal pipeline: Pipeline(memory=None, steps=[('empty_step', 'passthrough')], verbose=False)
+2022-06-02 14:37:19,770:INFO:Creating grid variables
+2022-06-02 14:37:19,775:INFO:create_model_container: 0
+2022-06-02 14:37:19,776:INFO:master_model_container: 0
+2022-06-02 14:37:19,776:INFO:display_container: 1
+2022-06-02 14:37:19,788:INFO:Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True, features_todrop=[],
+                                      id_columns=[], ml_usecase='regression',
+                                      numerical_features=[],
+                                      target='UNSUPERVISED_DUMMY_TARGET',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough')],
+         verbose=False)
+2022-06-02 14:37:19,788:INFO:setup() succesfully completed......................................
+2022-06-02 14:37:22,957:INFO:Initializing create_model()
+2022-06-02 14:37:22,957:INFO:create_model(estimator=iforest, num_clusters=4, fraction=0.1, ground_truth=None, round=4, fit_kwargs=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, experiment_custom_tags=None, display=None, kwargs={})
+2022-06-02 14:37:22,957:INFO:Checking exceptions
+2022-06-02 14:37:22,957:INFO:Preparing display monitor
+2022-06-02 14:37:22,977:INFO:Importing libraries
+2022-06-02 14:37:22,992:INFO:Importing untrained model
+2022-06-02 14:37:23,010:INFO:Isolation Forest Imported succesfully
+2022-06-02 14:37:23,028:INFO:Fitting Model
+2022-06-02 14:37:28,587:INFO:IForest(behaviour='new', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=-1, random_state=123,
+    verbose=0)
+2022-06-02 14:37:28,587:INFO:create_models() succesfully completed......................................
+2022-06-02 14:37:28,587:INFO:Uploading results into container
+2022-06-02 14:37:28,587:INFO:Uploading model into container now
+2022-06-02 14:37:28,587:INFO:create_model_container: 1
+2022-06-02 14:37:28,587:INFO:master_model_container: 1
+2022-06-02 14:37:28,587:INFO:display_container: 2
+2022-06-02 14:37:28,597:INFO:IForest(behaviour='new', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=-1, random_state=123,
+    verbose=0)
+2022-06-02 14:37:28,597:INFO:create_model() succesfully completed......................................
+2022-06-02 14:37:28,662:INFO:Initializing save_model()
+2022-06-02 14:37:28,662:INFO:save_model(model=IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0), model_name=model_iforest, prep_pipe_=Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True, features_todrop=[],
+                                      id_columns=[], ml_usecase='regression',
+                                      numerical_features=[],
+                                      target='UNSUPERVISED_DUMMY_TARGET',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough')],
+         verbose=False), verbose=True, kwargs={})
+2022-06-02 14:37:28,662:INFO:Adding model into prep_pipe
+2022-06-02 14:37:28,757:INFO:model_iforest.pkl saved in current working directory
+2022-06-02 14:37:28,771:INFO:Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True, features_todrop=[],
+                                      id_columns=[], ml_usecase='regression',
+                                      numerical_features=[],
+                                      target='UNSUPERVISED_DUMMY_TARGET',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None...
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]],
+         verbose=False)
+2022-06-02 14:37:28,772:INFO:save_model() successfully completed......................................
+2022-06-02 14:37:28,831:INFO:Initializing assign_model()
+2022-06-02 14:37:28,831:INFO:assign_model(model=IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0), transformation=False, score=True, verbose=True)
+2022-06-02 14:37:28,831:INFO:Checking exceptions
+2022-06-02 14:37:28,832:INFO:Determining Trained Model
+2022-06-02 14:37:28,832:INFO:Trained Model : Isolation Forest
+2022-06-02 14:37:28,832:INFO:Copying data
+2022-06-02 14:37:28,833:INFO:(5, 13)
+2022-06-02 14:37:28,833:INFO:assign_model() succesfully completed......................................
+2022-06-02 14:38:46,545:INFO:PyCaret Supervised Module
+2022-06-02 14:38:46,545:INFO:ML Usecase: anomaly
+2022-06-02 14:38:46,546:INFO:version 2.3.10
+2022-06-02 14:38:46,546:INFO:Initializing setup()
+2022-06-02 14:38:46,546:INFO:setup(target=None, ml_usecase=anomaly, available_plots={'tsne': 'Anomaly TSnE (3d)', 'umap': 'UMAP Dimensionality'}, train_size=0.7, test_data=None, preprocess=True, imputation_type=simple, iterative_imputation_iters=5, categorical_features=None, categorical_imputation=mode, categorical_iterative_imputer=lightgbm, ordinal_features=None, high_cardinality_features=None, high_cardinality_method=frequency, numeric_features=None, numeric_imputation=mean, numeric_iterative_imputer=lightgbm, date_features=None, ignore_features=None, normalize=True, normalize_method=zscore, transformation=False, transformation_method=yeo-johnson, handle_unknown_categorical=True, unknown_categorical_method=least_frequent, pca=False, pca_method=linear, pca_components=None, ignore_low_variance=False, combine_rare_levels=False, rare_level_threshold=0.1, bin_numeric_features=None, remove_outliers=False, outliers_threshold=0.05, remove_multicollinearity=False, multicollinearity_threshold=0.9, remove_perfect_collinearity=False, create_clusters=False, cluster_iter=20, polynomial_features=False, polynomial_degree=2, trigonometry_features=False, polynomial_threshold=0.1, group_features=None, group_names=None, feature_selection=False, feature_selection_threshold=0.8, feature_selection_method=classic, feature_interaction=False, feature_ratio=False, interaction_threshold=0.01, fix_imbalance=False, fix_imbalance_method=None, transform_target=False, transform_target_method=box-cox, data_split_shuffle=False, data_split_stratify=False, fold_strategy=kfold, fold=10, fold_shuffle=False, fold_groups=None, n_jobs=-1, use_gpu=False, custom_pipeline=None, html=True, session_id=123, log_experiment=False, experiment_name=None, experiment_custom_tags=None, log_plots=False, log_profile=False, log_data=False, silent=False, verbose=True, profile=False, profile_kwargs=None, display=None)
+2022-06-02 14:38:46,546:INFO:Checking environment
+2022-06-02 14:38:46,546:INFO:python_version: 3.7.0
+2022-06-02 14:38:46,546:INFO:python_build: ('default', 'Nov 12 2018 20:47:31')
+2022-06-02 14:38:46,546:INFO:machine: AMD64
+2022-06-02 14:38:46,546:INFO:platform: Windows-10-10.0.19041-SP0
+2022-06-02 14:38:46,546:INFO:Memory: svmem(total=34053791744, available=17797836800, percent=47.7, used=16255954944, free=17797836800)
+2022-06-02 14:38:46,546:INFO:Physical Core: 8
+2022-06-02 14:38:46,546:INFO:Logical Core: 16
+2022-06-02 14:38:46,547:INFO:Checking libraries
+2022-06-02 14:38:46,547:INFO:pd==1.3.5
+2022-06-02 14:38:46,547:INFO:numpy==1.19.0
+2022-06-02 14:38:46,547:INFO:sklearn==0.23.2
+2022-06-02 14:38:46,547:INFO:lightgbm==3.3.2
+2022-06-02 14:38:46,548:WARNING:catboost not found
+2022-06-02 14:38:46,549:WARNING:xgboost not found
+2022-06-02 14:38:46,549:INFO:mlflow==1.26.0
+2022-06-02 14:38:46,549:INFO:Checking Exceptions
+2022-06-02 14:38:46,549:INFO:Declaring global variables
+2022-06-02 14:38:46,549:INFO:USI: 5be1
+2022-06-02 14:38:46,549:INFO:pycaret_globals: {'fold_param', 'create_model_container', '_ml_usecase', 'imputation_classifier', '_internal_pipeline', 'imputation_regressor', 'USI', 'fold_groups_param_full', 'display_container', 'data_before_preprocess', 'fold_generator', 'seed', 'pycaret_globals', 'prep_pipe', 'exp_name_log', 'iterative_imputation_iters_param', 'fold_shuffle_param', 'fix_imbalance_param', '_available_plots', 'X', 'transform_target_param', 'fix_imbalance_method_param', 'n_jobs_param', 'html_param', 'master_model_container', 'gpu_param', 'transform_target_method_param', 'logging_param', 'dashboard_logger', 'experiment__', 'target_param', '_gpu_n_jobs_param', 'stratify_param', '_all_models', 'fold_groups_param', '_all_metrics', 'log_plots_param', '_all_models_internal'}
+2022-06-02 14:38:46,549:INFO:Preparing display monitor
+2022-06-02 14:38:46,549:INFO:Preparing display monitor
+2022-06-02 14:38:46,563:INFO:Importing libraries
+2022-06-02 14:38:46,563:INFO:Copying data for preprocessing
+2022-06-02 14:38:46,570:INFO:Declaring preprocessing parameters
+2022-06-02 14:38:46,575:INFO:Creating preprocessing pipeline
+2022-06-02 14:38:46,586:INFO:Preprocessing pipeline created successfully
+2022-06-02 14:38:46,586:ERROR:(Process Exit): setup has been interupted with user command 'quit'. setup must rerun.
+2022-06-02 14:38:46,586:INFO:Creating global containers
+2022-06-02 14:38:46,589:INFO:Internal pipeline: Pipeline(memory=None, steps=[('empty_step', 'passthrough')], verbose=False)
+2022-06-02 14:39:11,817:INFO:PyCaret Supervised Module
+2022-06-02 14:39:11,817:INFO:ML Usecase: anomaly
+2022-06-02 14:39:11,818:INFO:version 2.3.10
+2022-06-02 14:39:11,818:INFO:Initializing setup()
+2022-06-02 14:39:11,818:INFO:setup(target=None, ml_usecase=anomaly, available_plots={'tsne': 'Anomaly TSnE (3d)', 'umap': 'UMAP Dimensionality'}, train_size=0.7, test_data=None, preprocess=True, imputation_type=simple, iterative_imputation_iters=5, categorical_features=None, categorical_imputation=mode, categorical_iterative_imputer=lightgbm, ordinal_features=None, high_cardinality_features=None, high_cardinality_method=frequency, numeric_features=None, numeric_imputation=mean, numeric_iterative_imputer=lightgbm, date_features=None, ignore_features=None, normalize=True, normalize_method=zscore, transformation=False, transformation_method=yeo-johnson, handle_unknown_categorical=True, unknown_categorical_method=least_frequent, pca=False, pca_method=linear, pca_components=None, ignore_low_variance=False, combine_rare_levels=False, rare_level_threshold=0.1, bin_numeric_features=None, remove_outliers=False, outliers_threshold=0.05, remove_multicollinearity=False, multicollinearity_threshold=0.9, remove_perfect_collinearity=False, create_clusters=False, cluster_iter=20, polynomial_features=False, polynomial_degree=2, trigonometry_features=False, polynomial_threshold=0.1, group_features=None, group_names=None, feature_selection=False, feature_selection_threshold=0.8, feature_selection_method=classic, feature_interaction=False, feature_ratio=False, interaction_threshold=0.01, fix_imbalance=False, fix_imbalance_method=None, transform_target=False, transform_target_method=box-cox, data_split_shuffle=False, data_split_stratify=False, fold_strategy=kfold, fold=10, fold_shuffle=False, fold_groups=None, n_jobs=-1, use_gpu=False, custom_pipeline=None, html=True, session_id=123, log_experiment=False, experiment_name=None, experiment_custom_tags=None, log_plots=False, log_profile=False, log_data=False, silent=False, verbose=True, profile=False, profile_kwargs=None, display=None)
+2022-06-02 14:39:11,818:INFO:Checking environment
+2022-06-02 14:39:11,818:INFO:python_version: 3.7.0
+2022-06-02 14:39:11,818:INFO:python_build: ('default', 'Nov 12 2018 20:47:31')
+2022-06-02 14:39:11,818:INFO:machine: AMD64
+2022-06-02 14:39:11,818:INFO:platform: Windows-10-10.0.19041-SP0
+2022-06-02 14:39:11,819:INFO:Memory: svmem(total=34053791744, available=17780281344, percent=47.8, used=16273510400, free=17780281344)
+2022-06-02 14:39:11,819:INFO:Physical Core: 8
+2022-06-02 14:39:11,819:INFO:Logical Core: 16
+2022-06-02 14:39:11,819:INFO:Checking libraries
+2022-06-02 14:39:11,819:INFO:pd==1.3.5
+2022-06-02 14:39:11,819:INFO:numpy==1.19.0
+2022-06-02 14:39:11,819:INFO:sklearn==0.23.2
+2022-06-02 14:39:11,819:INFO:lightgbm==3.3.2
+2022-06-02 14:39:11,820:WARNING:catboost not found
+2022-06-02 14:39:11,821:WARNING:xgboost not found
+2022-06-02 14:39:11,821:INFO:mlflow==1.26.0
+2022-06-02 14:39:11,822:INFO:Checking Exceptions
+2022-06-02 14:39:11,822:INFO:Declaring global variables
+2022-06-02 14:39:11,822:INFO:USI: 573f
+2022-06-02 14:39:11,822:INFO:pycaret_globals: {'_gpu_n_jobs_param', 'seed', 'log_plots_param', '_all_metrics', 'target_param', 'fold_shuffle_param', 'stratify_param', 'fold_groups_param_full', 'fold_groups_param', 'display_container', 'pycaret_globals', '_all_models_internal', 'fold_generator', 'transform_target_method_param', 'gpu_param', '_all_models', 'dashboard_logger', '_ml_usecase', 'exp_name_log', 'master_model_container', 'data_before_preprocess', '_available_plots', 'imputation_classifier', 'USI', 'fix_imbalance_method_param', 'create_model_container', 'transform_target_param', 'prep_pipe', 'imputation_regressor', 'X', 'fix_imbalance_param', 'logging_param', 'iterative_imputation_iters_param', 'fold_param', '_internal_pipeline', 'n_jobs_param', 'html_param', 'experiment__'}
+2022-06-02 14:39:11,823:INFO:Preparing display monitor
+2022-06-02 14:39:11,823:INFO:Preparing display monitor
+2022-06-02 14:39:11,837:INFO:Importing libraries
+2022-06-02 14:39:11,838:INFO:Copying data for preprocessing
+2022-06-02 14:39:11,848:INFO:Declaring preprocessing parameters
+2022-06-02 14:39:11,853:INFO:Creating preprocessing pipeline
+2022-06-02 14:39:11,864:INFO:Preprocessing pipeline created successfully
+2022-06-02 14:39:11,865:ERROR:(Process Exit): setup has been interupted with user command 'quit'. setup must rerun.
+2022-06-02 14:39:11,865:INFO:Creating global containers
+2022-06-02 14:39:11,868:INFO:Internal pipeline: Pipeline(memory=None, steps=[('empty_step', 'passthrough')], verbose=False)
+2022-06-02 14:39:14,124:INFO:Creating grid variables
+2022-06-02 14:39:14,129:INFO:create_model_container: 0
+2022-06-02 14:39:14,129:INFO:master_model_container: 0
+2022-06-02 14:39:14,129:INFO:display_container: 1
+2022-06-02 14:39:14,140:INFO:Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True, features_todrop=[],
+                                      id_columns=[], ml_usecase='regression',
+                                      numerical_features=[],
+                                      target='UNSUPERVISED_DUMMY_TARGET',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough')],
+         verbose=False)
+2022-06-02 14:39:14,140:INFO:setup() succesfully completed......................................
+2022-06-02 14:39:17,316:INFO:Initializing create_model()
+2022-06-02 14:39:17,316:INFO:create_model(estimator=iforest, num_clusters=4, fraction=0.1, ground_truth=None, round=4, fit_kwargs=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, experiment_custom_tags=None, display=None, kwargs={})
+2022-06-02 14:39:17,316:INFO:Checking exceptions
+2022-06-02 14:39:17,316:INFO:Preparing display monitor
+2022-06-02 14:39:17,344:INFO:Importing libraries
+2022-06-02 14:39:17,361:INFO:Importing untrained model
+2022-06-02 14:39:17,381:INFO:Isolation Forest Imported succesfully
+2022-06-02 14:39:17,401:INFO:Fitting Model
+2022-06-02 14:39:23,034:INFO:IForest(behaviour='new', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=-1, random_state=123,
+    verbose=0)
+2022-06-02 14:39:23,034:INFO:create_models() succesfully completed......................................
+2022-06-02 14:39:23,034:INFO:Uploading results into container
+2022-06-02 14:39:23,035:INFO:Uploading model into container now
+2022-06-02 14:39:23,036:INFO:create_model_container: 1
+2022-06-02 14:39:23,036:INFO:master_model_container: 1
+2022-06-02 14:39:23,036:INFO:display_container: 2
+2022-06-02 14:39:23,037:INFO:IForest(behaviour='new', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=-1, random_state=123,
+    verbose=0)
+2022-06-02 14:39:23,037:INFO:create_model() succesfully completed......................................
+2022-06-02 14:39:23,102:INFO:Initializing save_model()
+2022-06-02 14:39:23,102:INFO:save_model(model=IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0), model_name=model_iforest, prep_pipe_=Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True, features_todrop=[],
+                                      id_columns=[], ml_usecase='regression',
+                                      numerical_features=[],
+                                      target='UNSUPERVISED_DUMMY_TARGET',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough')],
+         verbose=False), verbose=True, kwargs={})
+2022-06-02 14:39:23,102:INFO:Adding model into prep_pipe
+2022-06-02 14:39:23,197:INFO:model_iforest.pkl saved in current working directory
+2022-06-02 14:39:23,209:INFO:Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True, features_todrop=[],
+                                      id_columns=[], ml_usecase='regression',
+                                      numerical_features=[],
+                                      target='UNSUPERVISED_DUMMY_TARGET',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None...
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]],
+         verbose=False)
+2022-06-02 14:39:23,210:INFO:save_model() successfully completed......................................
+2022-06-02 14:39:23,268:INFO:Initializing assign_model()
+2022-06-02 14:39:23,268:INFO:assign_model(model=IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0), transformation=False, score=True, verbose=True)
+2022-06-02 14:39:23,268:INFO:Checking exceptions
+2022-06-02 14:39:23,269:INFO:Determining Trained Model
+2022-06-02 14:39:23,269:INFO:Trained Model : Isolation Forest
+2022-06-02 14:39:23,269:INFO:Copying data
+2022-06-02 14:39:23,270:INFO:(5, 13)
+2022-06-02 14:39:23,271:INFO:assign_model() succesfully completed......................................
+2022-06-02 14:39:28,191:INFO:Initializing load_model()
+2022-06-02 14:39:28,191:INFO:load_model(model_name=model_iforest, platform=None, authentication=None, verbose=True)
+2022-06-02 14:39:28,287:INFO:Initializing predict_model()
+2022-06-02 14:39:28,287:INFO:predict_model(estimator=Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True, features_todrop=[],
+                                      id_columns=[], ml_usecase='regression',
+                                      numerical_features=[],
+                                      target='UNSUPERVISED_DUMMY_TARGET',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None...
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]],
+         verbose=False), ml_usecase=MLUsecase.ANOMALY)
+2022-06-02 15:18:03,360:INFO:PyCaret Supervised Module
+2022-06-02 15:18:03,360:INFO:ML Usecase: anomaly
+2022-06-02 15:18:03,360:INFO:version 2.3.10
+2022-06-02 15:18:03,360:INFO:Initializing setup()
+2022-06-02 15:18:03,360:INFO:setup(target=None, ml_usecase=anomaly, available_plots={'tsne': 'Anomaly TSnE (3d)', 'umap': 'UMAP Dimensionality'}, train_size=0.7, test_data=None, preprocess=True, imputation_type=simple, iterative_imputation_iters=5, categorical_features=None, categorical_imputation=mode, categorical_iterative_imputer=lightgbm, ordinal_features=None, high_cardinality_features=None, high_cardinality_method=frequency, numeric_features=None, numeric_imputation=mean, numeric_iterative_imputer=lightgbm, date_features=None, ignore_features=None, normalize=True, normalize_method=zscore, transformation=False, transformation_method=yeo-johnson, handle_unknown_categorical=True, unknown_categorical_method=least_frequent, pca=False, pca_method=linear, pca_components=None, ignore_low_variance=False, combine_rare_levels=False, rare_level_threshold=0.1, bin_numeric_features=None, remove_outliers=False, outliers_threshold=0.05, remove_multicollinearity=False, multicollinearity_threshold=0.9, remove_perfect_collinearity=False, create_clusters=False, cluster_iter=20, polynomial_features=False, polynomial_degree=2, trigonometry_features=False, polynomial_threshold=0.1, group_features=None, group_names=None, feature_selection=False, feature_selection_threshold=0.8, feature_selection_method=classic, feature_interaction=False, feature_ratio=False, interaction_threshold=0.01, fix_imbalance=False, fix_imbalance_method=None, transform_target=False, transform_target_method=box-cox, data_split_shuffle=False, data_split_stratify=False, fold_strategy=kfold, fold=10, fold_shuffle=False, fold_groups=None, n_jobs=-1, use_gpu=False, custom_pipeline=None, html=True, session_id=123, log_experiment=False, experiment_name=None, experiment_custom_tags=None, log_plots=False, log_profile=False, log_data=False, silent=False, verbose=True, profile=False, profile_kwargs=None, display=None)
+2022-06-02 15:18:03,361:INFO:Checking environment
+2022-06-02 15:18:03,361:INFO:python_version: 3.7.0
+2022-06-02 15:18:03,361:INFO:python_build: ('default', 'Nov 12 2018 20:47:31')
+2022-06-02 15:18:03,361:INFO:machine: AMD64
+2022-06-02 15:18:03,361:INFO:platform: Windows-10-10.0.19041-SP0
+2022-06-02 15:18:03,361:INFO:Memory: svmem(total=34053791744, available=17211011072, percent=49.5, used=16842780672, free=17211011072)
+2022-06-02 15:18:03,361:INFO:Physical Core: 8
+2022-06-02 15:18:03,361:INFO:Logical Core: 16
+2022-06-02 15:18:03,362:INFO:Checking libraries
+2022-06-02 15:18:03,362:INFO:pd==1.3.5
+2022-06-02 15:18:03,362:INFO:numpy==1.19.0
+2022-06-02 15:18:03,362:INFO:sklearn==0.23.2
+2022-06-02 15:18:03,362:INFO:lightgbm==3.3.2
+2022-06-02 15:18:03,363:WARNING:catboost not found
+2022-06-02 15:18:03,364:WARNING:xgboost not found
+2022-06-02 15:18:03,364:INFO:mlflow==1.26.0
+2022-06-02 15:18:03,364:INFO:Checking Exceptions
+2022-06-02 15:18:03,365:INFO:Declaring global variables
+2022-06-02 15:18:03,365:INFO:USI: 41ac
+2022-06-02 15:18:03,365:INFO:pycaret_globals: {'logging_param', 'imputation_classifier', 'transform_target_method_param', 'USI', 'gpu_param', 'create_model_container', 'prep_pipe', 'fold_groups_param_full', '_internal_pipeline', 'pycaret_globals', 'log_plots_param', 'imputation_regressor', '_ml_usecase', 'X', 'display_container', 'seed', 'fix_imbalance_param', 'exp_name_log', 'experiment__', '_all_models', 'n_jobs_param', 'fold_shuffle_param', '_available_plots', '_all_models_internal', 'dashboard_logger', 'data_before_preprocess', '_all_metrics', 'transform_target_param', 'html_param', 'master_model_container', 'stratify_param', 'fold_param', 'fold_generator', '_gpu_n_jobs_param', 'fix_imbalance_method_param', 'iterative_imputation_iters_param', 'fold_groups_param', 'target_param'}
+2022-06-02 15:18:03,365:INFO:Preparing display monitor
+2022-06-02 15:18:03,365:INFO:Preparing display monitor
+2022-06-02 15:18:03,382:INFO:Importing libraries
+2022-06-02 15:18:03,382:INFO:Copying data for preprocessing
+2022-06-02 15:18:03,393:INFO:Declaring preprocessing parameters
+2022-06-02 15:18:03,396:INFO:Creating preprocessing pipeline
+2022-06-02 15:18:03,408:INFO:Preprocessing pipeline created successfully
+2022-06-02 15:18:03,409:ERROR:(Process Exit): setup has been interupted with user command 'quit'. setup must rerun.
+2022-06-02 15:18:03,409:INFO:Creating global containers
+2022-06-02 15:18:03,411:INFO:Internal pipeline: Pipeline(memory=None, steps=[('empty_step', 'passthrough')], verbose=False)
+2022-06-02 15:18:07,352:INFO:Creating grid variables
+2022-06-02 15:18:07,358:INFO:create_model_container: 0
+2022-06-02 15:18:07,358:INFO:master_model_container: 0
+2022-06-02 15:18:07,358:INFO:display_container: 1
+2022-06-02 15:18:07,368:INFO:Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True, features_todrop=[],
+                                      id_columns=[], ml_usecase='regression',
+                                      numerical_features=[],
+                                      target='UNSUPERVISED_DUMMY_TARGET',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough')],
+         verbose=False)
+2022-06-02 15:18:07,368:INFO:setup() succesfully completed......................................
+2022-06-02 15:18:10,561:INFO:Initializing create_model()
+2022-06-02 15:18:10,561:INFO:create_model(estimator=iforest, num_clusters=4, fraction=0.1, ground_truth=None, round=4, fit_kwargs=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, experiment_custom_tags=None, display=None, kwargs={})
+2022-06-02 15:18:10,561:INFO:Checking exceptions
+2022-06-02 15:18:10,561:INFO:Preparing display monitor
+2022-06-02 15:18:10,577:INFO:Importing libraries
+2022-06-02 15:18:10,593:INFO:Importing untrained model
+2022-06-02 15:18:10,612:INFO:Isolation Forest Imported succesfully
+2022-06-02 15:18:10,634:INFO:Fitting Model
+2022-06-02 15:18:16,090:INFO:IForest(behaviour='new', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=-1, random_state=123,
+    verbose=0)
+2022-06-02 15:18:16,090:INFO:create_models() succesfully completed......................................
+2022-06-02 15:18:16,090:INFO:Uploading results into container
+2022-06-02 15:18:16,090:INFO:Uploading model into container now
+2022-06-02 15:18:16,090:INFO:create_model_container: 1
+2022-06-02 15:18:16,090:INFO:master_model_container: 1
+2022-06-02 15:18:16,090:INFO:display_container: 2
+2022-06-02 15:18:16,097:INFO:IForest(behaviour='new', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=-1, random_state=123,
+    verbose=0)
+2022-06-02 15:18:16,097:INFO:create_model() succesfully completed......................................
+2022-06-02 15:18:16,159:INFO:Initializing save_model()
+2022-06-02 15:18:16,159:INFO:save_model(model=IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0), model_name=model_iforest, prep_pipe_=Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True, features_todrop=[],
+                                      id_columns=[], ml_usecase='regression',
+                                      numerical_features=[],
+                                      target='UNSUPERVISED_DUMMY_TARGET',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough')],
+         verbose=False), verbose=True, kwargs={})
+2022-06-02 15:18:16,159:INFO:Adding model into prep_pipe
+2022-06-02 15:18:16,251:INFO:model_iforest.pkl saved in current working directory
+2022-06-02 15:18:16,265:INFO:Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True, features_todrop=[],
+                                      id_columns=[], ml_usecase='regression',
+                                      numerical_features=[],
+                                      target='UNSUPERVISED_DUMMY_TARGET',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None...
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]],
+         verbose=False)
+2022-06-02 15:18:16,265:INFO:save_model() successfully completed......................................
+2022-06-02 15:18:16,319:INFO:Initializing assign_model()
+2022-06-02 15:18:16,319:INFO:assign_model(model=IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0), transformation=False, score=True, verbose=True)
+2022-06-02 15:18:16,319:INFO:Checking exceptions
+2022-06-02 15:18:16,319:INFO:Determining Trained Model
+2022-06-02 15:18:16,320:INFO:Trained Model : Isolation Forest
+2022-06-02 15:18:16,320:INFO:Copying data
+2022-06-02 15:18:16,322:INFO:(5, 13)
+2022-06-02 15:18:16,322:INFO:assign_model() succesfully completed......................................
+2022-06-02 15:18:21,061:INFO:Initializing load_model()
+2022-06-02 15:18:21,061:INFO:load_model(model_name=model_iforest, platform=None, authentication=None, verbose=True)
+2022-06-02 15:18:21,150:INFO:Initializing predict_model()
+2022-06-02 15:18:21,150:INFO:predict_model(estimator=Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True, features_todrop=[],
+                                      id_columns=[], ml_usecase='regression',
+                                      numerical_features=[],
+                                      target='UNSUPERVISED_DUMMY_TARGET',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None...
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]],
+         verbose=False), ml_usecase=MLUsecase.ANOMALY)
+2022-06-02 15:20:09,181:INFO:PyCaret Supervised Module
+2022-06-02 15:20:09,181:INFO:ML Usecase: anomaly
+2022-06-02 15:20:09,181:INFO:version 2.3.10
+2022-06-02 15:20:09,182:INFO:Initializing setup()
+2022-06-02 15:20:09,182:INFO:setup(target=None, ml_usecase=anomaly, available_plots={'tsne': 'Anomaly TSnE (3d)', 'umap': 'UMAP Dimensionality'}, train_size=0.7, test_data=None, preprocess=True, imputation_type=simple, iterative_imputation_iters=5, categorical_features=None, categorical_imputation=mode, categorical_iterative_imputer=lightgbm, ordinal_features=None, high_cardinality_features=None, high_cardinality_method=frequency, numeric_features=None, numeric_imputation=mean, numeric_iterative_imputer=lightgbm, date_features=None, ignore_features=None, normalize=True, normalize_method=zscore, transformation=False, transformation_method=yeo-johnson, handle_unknown_categorical=True, unknown_categorical_method=least_frequent, pca=False, pca_method=linear, pca_components=None, ignore_low_variance=False, combine_rare_levels=False, rare_level_threshold=0.1, bin_numeric_features=None, remove_outliers=False, outliers_threshold=0.05, remove_multicollinearity=False, multicollinearity_threshold=0.9, remove_perfect_collinearity=False, create_clusters=False, cluster_iter=20, polynomial_features=False, polynomial_degree=2, trigonometry_features=False, polynomial_threshold=0.1, group_features=None, group_names=None, feature_selection=False, feature_selection_threshold=0.8, feature_selection_method=classic, feature_interaction=False, feature_ratio=False, interaction_threshold=0.01, fix_imbalance=False, fix_imbalance_method=None, transform_target=False, transform_target_method=box-cox, data_split_shuffle=False, data_split_stratify=False, fold_strategy=kfold, fold=10, fold_shuffle=False, fold_groups=None, n_jobs=-1, use_gpu=False, custom_pipeline=None, html=True, session_id=123, log_experiment=False, experiment_name=None, experiment_custom_tags=None, log_plots=False, log_profile=False, log_data=False, silent=False, verbose=True, profile=False, profile_kwargs=None, display=None)
+2022-06-02 15:20:09,182:INFO:Checking environment
+2022-06-02 15:20:09,182:INFO:python_version: 3.7.0
+2022-06-02 15:20:09,182:INFO:python_build: ('default', 'Nov 12 2018 20:47:31')
+2022-06-02 15:20:09,182:INFO:machine: AMD64
+2022-06-02 15:20:09,182:INFO:platform: Windows-10-10.0.19041-SP0
+2022-06-02 15:20:09,182:INFO:Memory: svmem(total=34053791744, available=17076842496, percent=49.9, used=16976949248, free=17076842496)
+2022-06-02 15:20:09,182:INFO:Physical Core: 8
+2022-06-02 15:20:09,182:INFO:Logical Core: 16
+2022-06-02 15:20:09,182:INFO:Checking libraries
+2022-06-02 15:20:09,182:INFO:pd==1.3.5
+2022-06-02 15:20:09,183:INFO:numpy==1.19.0
+2022-06-02 15:20:09,183:INFO:sklearn==0.23.2
+2022-06-02 15:20:09,183:INFO:lightgbm==3.3.2
+2022-06-02 15:20:09,184:WARNING:catboost not found
+2022-06-02 15:20:09,185:WARNING:xgboost not found
+2022-06-02 15:20:09,185:INFO:mlflow==1.26.0
+2022-06-02 15:20:09,185:INFO:Checking Exceptions
+2022-06-02 15:20:09,186:INFO:Declaring global variables
+2022-06-02 15:20:09,186:INFO:USI: 471c
+2022-06-02 15:20:09,186:INFO:pycaret_globals: {'experiment__', 'master_model_container', 'USI', 'prep_pipe', 'fix_imbalance_param', 'fold_shuffle_param', 'fold_generator', 'fold_groups_param', 'imputation_regressor', '_all_models_internal', 'data_before_preprocess', 'pycaret_globals', '_gpu_n_jobs_param', 'display_container', 'n_jobs_param', 'html_param', '_available_plots', 'seed', 'transform_target_method_param', '_all_models', 'X', 'exp_name_log', '_all_metrics', 'dashboard_logger', 'gpu_param', 'stratify_param', 'fold_groups_param_full', 'log_plots_param', 'iterative_imputation_iters_param', 'transform_target_param', '_ml_usecase', 'logging_param', 'imputation_classifier', 'create_model_container', 'target_param', '_internal_pipeline', 'fix_imbalance_method_param', 'fold_param'}
+2022-06-02 15:20:09,186:INFO:Preparing display monitor
+2022-06-02 15:20:09,186:INFO:Preparing display monitor
+2022-06-02 15:20:09,201:INFO:Importing libraries
+2022-06-02 15:20:09,201:INFO:Copying data for preprocessing
+2022-06-02 15:20:09,211:INFO:Declaring preprocessing parameters
+2022-06-02 15:20:09,215:INFO:Creating preprocessing pipeline
+2022-06-02 15:20:09,227:INFO:Preprocessing pipeline created successfully
+2022-06-02 15:20:09,227:ERROR:(Process Exit): setup has been interupted with user command 'quit'. setup must rerun.
+2022-06-02 15:20:09,228:INFO:Creating global containers
+2022-06-02 15:20:09,230:INFO:Internal pipeline: Pipeline(memory=None, steps=[('empty_step', 'passthrough')], verbose=False)
+2022-06-02 15:20:11,041:INFO:Creating grid variables
+2022-06-02 15:20:11,046:INFO:create_model_container: 0
+2022-06-02 15:20:11,046:INFO:master_model_container: 0
+2022-06-02 15:20:11,046:INFO:display_container: 1
+2022-06-02 15:20:11,058:INFO:Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True, features_todrop=[],
+                                      id_columns=[], ml_usecase='regression',
+                                      numerical_features=[],
+                                      target='UNSUPERVISED_DUMMY_TARGET',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough')],
+         verbose=False)
+2022-06-02 15:20:11,058:INFO:setup() succesfully completed......................................
+2022-06-02 15:20:14,230:INFO:Initializing create_model()
+2022-06-02 15:20:14,230:INFO:create_model(estimator=iforest, num_clusters=4, fraction=0.1, ground_truth=None, round=4, fit_kwargs=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, experiment_custom_tags=None, display=None, kwargs={})
+2022-06-02 15:20:14,230:INFO:Checking exceptions
+2022-06-02 15:20:14,230:INFO:Preparing display monitor
+2022-06-02 15:20:14,253:INFO:Importing libraries
+2022-06-02 15:20:14,269:INFO:Importing untrained model
+2022-06-02 15:20:14,287:INFO:Isolation Forest Imported succesfully
+2022-06-02 15:20:14,308:INFO:Fitting Model
+2022-06-02 15:20:19,954:INFO:IForest(behaviour='new', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=-1, random_state=123,
+    verbose=0)
+2022-06-02 15:20:19,954:INFO:create_models() succesfully completed......................................
+2022-06-02 15:20:19,954:INFO:Uploading results into container
+2022-06-02 15:20:19,954:INFO:Uploading model into container now
+2022-06-02 15:20:19,954:INFO:create_model_container: 1
+2022-06-02 15:20:19,954:INFO:master_model_container: 1
+2022-06-02 15:20:19,954:INFO:display_container: 2
+2022-06-02 15:20:19,959:INFO:IForest(behaviour='new', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=-1, random_state=123,
+    verbose=0)
+2022-06-02 15:20:19,959:INFO:create_model() succesfully completed......................................
+2022-06-02 15:20:20,021:INFO:Initializing save_model()
+2022-06-02 15:20:20,021:INFO:save_model(model=IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0), model_name=model_iforest, prep_pipe_=Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True, features_todrop=[],
+                                      id_columns=[], ml_usecase='regression',
+                                      numerical_features=[],
+                                      target='UNSUPERVISED_DUMMY_TARGET',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough')],
+         verbose=False), verbose=True, kwargs={})
+2022-06-02 15:20:20,021:INFO:Adding model into prep_pipe
+2022-06-02 15:20:20,116:INFO:model_iforest.pkl saved in current working directory
+2022-06-02 15:20:20,131:INFO:Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True, features_todrop=[],
+                                      id_columns=[], ml_usecase='regression',
+                                      numerical_features=[],
+                                      target='UNSUPERVISED_DUMMY_TARGET',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None...
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]],
+         verbose=False)
+2022-06-02 15:20:20,131:INFO:save_model() successfully completed......................................
+2022-06-02 15:20:20,189:INFO:Initializing assign_model()
+2022-06-02 15:20:20,189:INFO:assign_model(model=IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0), transformation=False, score=True, verbose=True)
+2022-06-02 15:20:20,189:INFO:Checking exceptions
+2022-06-02 15:20:20,189:INFO:Determining Trained Model
+2022-06-02 15:20:20,189:INFO:Trained Model : Isolation Forest
+2022-06-02 15:20:20,190:INFO:Copying data
+2022-06-02 15:20:20,191:INFO:(5, 13)
+2022-06-02 15:20:20,191:INFO:assign_model() succesfully completed......................................
+2022-06-02 15:20:24,894:INFO:Initializing load_model()
+2022-06-02 15:20:24,894:INFO:load_model(model_name=model_iforest, platform=None, authentication=None, verbose=True)
+2022-06-02 15:20:24,980:INFO:Initializing predict_model()
+2022-06-02 15:20:24,980:INFO:predict_model(estimator=Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True, features_todrop=[],
+                                      id_columns=[], ml_usecase='regression',
+                                      numerical_features=[],
+                                      target='UNSUPERVISED_DUMMY_TARGET',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None...
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]],
+         verbose=False), ml_usecase=MLUsecase.ANOMALY)
+2022-06-03 15:21:35,701:INFO:PyCaret Supervised Module
+2022-06-03 15:21:35,702:INFO:ML Usecase: anomaly
+2022-06-03 15:21:35,702:INFO:version 2.3.10
+2022-06-03 15:21:35,702:INFO:Initializing setup()
+2022-06-03 15:21:35,702:INFO:setup(target=None, ml_usecase=anomaly, available_plots={'tsne': 'Anomaly TSnE (3d)', 'umap': 'UMAP Dimensionality'}, train_size=0.7, test_data=None, preprocess=True, imputation_type=simple, iterative_imputation_iters=5, categorical_features=None, categorical_imputation=mode, categorical_iterative_imputer=lightgbm, ordinal_features=None, high_cardinality_features=None, high_cardinality_method=frequency, numeric_features=None, numeric_imputation=mean, numeric_iterative_imputer=lightgbm, date_features=None, ignore_features=None, normalize=True, normalize_method=zscore, transformation=False, transformation_method=yeo-johnson, handle_unknown_categorical=True, unknown_categorical_method=least_frequent, pca=False, pca_method=linear, pca_components=None, ignore_low_variance=False, combine_rare_levels=False, rare_level_threshold=0.1, bin_numeric_features=None, remove_outliers=False, outliers_threshold=0.05, remove_multicollinearity=False, multicollinearity_threshold=0.9, remove_perfect_collinearity=False, create_clusters=False, cluster_iter=20, polynomial_features=False, polynomial_degree=2, trigonometry_features=False, polynomial_threshold=0.1, group_features=None, group_names=None, feature_selection=False, feature_selection_threshold=0.8, feature_selection_method=classic, feature_interaction=False, feature_ratio=False, interaction_threshold=0.01, fix_imbalance=False, fix_imbalance_method=None, transform_target=False, transform_target_method=box-cox, data_split_shuffle=False, data_split_stratify=False, fold_strategy=kfold, fold=10, fold_shuffle=False, fold_groups=None, n_jobs=-1, use_gpu=False, custom_pipeline=None, html=True, session_id=123, log_experiment=False, experiment_name=None, experiment_custom_tags=None, log_plots=False, log_profile=False, log_data=False, silent=False, verbose=True, profile=False, profile_kwargs=None, display=None)
+2022-06-03 15:21:35,702:INFO:Checking environment
+2022-06-03 15:21:35,702:INFO:python_version: 3.7.0
+2022-06-03 15:21:35,702:INFO:python_build: ('default', 'Nov 12 2018 20:47:31')
+2022-06-03 15:21:35,702:INFO:machine: AMD64
+2022-06-03 15:21:35,702:INFO:platform: Windows-10-10.0.19041-SP0
+2022-06-03 15:21:35,703:INFO:Memory: svmem(total=34053791744, available=17215090688, percent=49.4, used=16838701056, free=17215090688)
+2022-06-03 15:21:35,703:INFO:Physical Core: 8
+2022-06-03 15:21:35,703:INFO:Logical Core: 16
+2022-06-03 15:21:35,703:INFO:Checking libraries
+2022-06-03 15:21:35,703:INFO:pd==1.3.5
+2022-06-03 15:21:35,703:INFO:numpy==1.19.0
+2022-06-03 15:21:35,703:INFO:sklearn==0.23.2
+2022-06-03 15:21:35,703:INFO:lightgbm==3.3.2
+2022-06-03 15:21:35,704:WARNING:catboost not found
+2022-06-03 15:21:35,705:WARNING:xgboost not found
+2022-06-03 15:21:35,705:INFO:mlflow==1.26.0
+2022-06-03 15:21:35,705:INFO:Checking Exceptions
+2022-06-03 15:21:35,705:INFO:Declaring global variables
+2022-06-03 15:21:35,706:INFO:USI: 2ef0
+2022-06-03 15:21:35,706:INFO:pycaret_globals: {'_internal_pipeline', 'X', 'display_container', 'fold_generator', 'fold_shuffle_param', 'experiment__', 'create_model_container', '_all_models', 'fold_groups_param', 'pycaret_globals', '_ml_usecase', 'imputation_classifier', 'dashboard_logger', 'transform_target_param', 'master_model_container', 'stratify_param', '_all_metrics', '_all_models_internal', 'transform_target_method_param', 'target_param', 'fix_imbalance_method_param', 'exp_name_log', 'log_plots_param', 'USI', 'seed', 'prep_pipe', '_gpu_n_jobs_param', 'logging_param', 'n_jobs_param', 'iterative_imputation_iters_param', 'fix_imbalance_param', 'imputation_regressor', 'data_before_preprocess', 'gpu_param', 'fold_groups_param_full', 'html_param', 'fold_param', '_available_plots'}
+2022-06-03 15:21:35,706:INFO:Preparing display monitor
+2022-06-03 15:21:35,706:INFO:Preparing display monitor
+2022-06-03 15:21:35,718:INFO:Importing libraries
+2022-06-03 15:21:35,718:INFO:Copying data for preprocessing
+2022-06-03 15:21:35,725:INFO:Declaring preprocessing parameters
+2022-06-03 15:21:35,730:INFO:Creating preprocessing pipeline
+2022-06-03 15:21:35,746:INFO:Preprocessing pipeline created successfully
+2022-06-03 15:21:35,746:ERROR:(Process Exit): setup has been interupted with user command 'quit'. setup must rerun.
+2022-06-03 15:21:35,746:INFO:Creating global containers
+2022-06-03 15:21:35,748:INFO:Internal pipeline: Pipeline(memory=None, steps=[('empty_step', 'passthrough')], verbose=False)
+2022-06-03 15:21:38,484:INFO:Creating grid variables
+2022-06-03 15:21:38,490:INFO:create_model_container: 0
+2022-06-03 15:21:38,491:INFO:master_model_container: 0
+2022-06-03 15:21:38,491:INFO:display_container: 1
+2022-06-03 15:21:38,501:INFO:Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True, features_todrop=[],
+                                      id_columns=[], ml_usecase='regression',
+                                      numerical_features=[],
+                                      target='UNSUPERVISED_DUMMY_TARGET',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough')],
+         verbose=False)
+2022-06-03 15:21:38,501:INFO:setup() succesfully completed......................................
+2022-06-03 15:21:41,675:INFO:Initializing create_model()
+2022-06-03 15:21:41,675:INFO:create_model(estimator=iforest, num_clusters=4, fraction=0.1, ground_truth=None, round=4, fit_kwargs=None, verbose=True, system=True, add_to_model_list=True, raise_num_clusters=False, experiment_custom_tags=None, display=None, kwargs={})
+2022-06-03 15:21:41,676:INFO:Checking exceptions
+2022-06-03 15:21:41,676:INFO:Preparing display monitor
+2022-06-03 15:21:41,694:INFO:Importing libraries
+2022-06-03 15:21:41,711:INFO:Importing untrained model
+2022-06-03 15:21:41,731:INFO:Isolation Forest Imported succesfully
+2022-06-03 15:21:41,751:INFO:Fitting Model
+2022-06-03 15:21:47,189:INFO:IForest(behaviour='new', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=-1, random_state=123,
+    verbose=0)
+2022-06-03 15:21:47,189:INFO:create_models() succesfully completed......................................
+2022-06-03 15:21:47,189:INFO:Uploading results into container
+2022-06-03 15:21:47,189:INFO:Uploading model into container now
+2022-06-03 15:21:47,189:INFO:create_model_container: 1
+2022-06-03 15:21:47,189:INFO:master_model_container: 1
+2022-06-03 15:21:47,189:INFO:display_container: 2
+2022-06-03 15:21:47,202:INFO:IForest(behaviour='new', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=-1, random_state=123,
+    verbose=0)
+2022-06-03 15:21:47,202:INFO:create_model() succesfully completed......................................
+2022-06-03 15:21:47,265:INFO:Initializing save_model()
+2022-06-03 15:21:47,265:INFO:save_model(model=IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0), model_name=model_iforest, prep_pipe_=Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True, features_todrop=[],
+                                      id_columns=[], ml_usecase='regression',
+                                      numerical_features=[],
+                                      target='UNSUPERVISED_DUMMY_TARGET',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough')],
+         verbose=False), verbose=True, kwargs={})
+2022-06-03 15:21:47,265:INFO:Adding model into prep_pipe
+2022-06-03 15:21:47,346:INFO:model_iforest.pkl saved in current working directory
+2022-06-03 15:21:47,372:INFO:Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True, features_todrop=[],
+                                      id_columns=[], ml_usecase='regression',
+                                      numerical_features=[],
+                                      target='UNSUPERVISED_DUMMY_TARGET',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None...
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]],
+         verbose=False)
+2022-06-03 15:21:47,372:INFO:save_model() successfully completed......................................
+2022-06-03 15:21:47,426:INFO:Initializing assign_model()
+2022-06-03 15:21:47,427:INFO:assign_model(model=IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0), transformation=False, score=True, verbose=True)
+2022-06-03 15:21:47,427:INFO:Checking exceptions
+2022-06-03 15:21:47,427:INFO:Determining Trained Model
+2022-06-03 15:21:47,427:INFO:Trained Model : Isolation Forest
+2022-06-03 15:21:47,427:INFO:Copying data
+2022-06-03 15:21:47,428:INFO:(5, 13)
+2022-06-03 15:21:47,428:INFO:assign_model() succesfully completed......................................
+2022-06-03 15:21:52,315:INFO:Initializing load_model()
+2022-06-03 15:21:52,315:INFO:load_model(model_name=model_iforest, platform=None, authentication=None, verbose=True)
+2022-06-03 15:21:52,405:INFO:Initializing predict_model()
+2022-06-03 15:21:52,405:INFO:predict_model(estimator=Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True, features_todrop=[],
+                                      id_columns=[], ml_usecase='regression',
+                                      numerical_features=[],
+                                      target='UNSUPERVISED_DUMMY_TARGET',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None...
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 IForest(behaviour='old', bootstrap=False, contamination=0.1, max_features=1.0,
+    max_samples='auto', n_estimators=100, n_jobs=1, random_state=None,
+    verbose=0)]],
+         verbose=False), ml_usecase=MLUsecase.ANOMALY)
